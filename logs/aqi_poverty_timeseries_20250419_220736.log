@@ -1,0 +1,6 @@
+2025-04-19 22:07:36,815 - INFO - Logging setup
+2025-04-19 22:07:36,935 - INFO - Loaded AQI dataset with 25376 records
+2025-04-19 22:07:36,939 - INFO - Loaded poverty dataset with 416 sectors
+2025-04-19 22:07:36,940 - INFO - Starting time series trend analysis
+2025-04-19 22:07:36,940 - INFO - Merged dataset contains 0 records after joining on sector
+2025-04-19 22:07:36,940 - WARNING - Bins are not monotonically increasing; adjusting

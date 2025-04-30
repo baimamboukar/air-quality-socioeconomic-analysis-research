@@ -1,0 +1,19 @@
+2025-04-19 14:02:35,428 - INFO - Logging setup. Log file: logs\correlation_analysis_20250419_140235.log
+2025-04-19 14:02:35,438 - INFO - Loaded dataset with 31 districts and 30 variables
+2025-04-19 14:02:35,439 - INFO - Using AQI_mean as AQI variable
+2025-04-19 14:02:35,444 - INFO - Using None as poverty variable
+2025-04-19 14:02:35,444 - INFO - Starting correlation analysis
+2025-04-19 14:02:35,448 - INFO - Calculating pearson correlations for 20 numeric variables
+2025-04-19 14:02:35,448 - INFO - Top correlations with AQI (pearson):
+2025-04-19 14:02:35,454 - INFO -   Aqi Median: 0.9340
+2025-04-19 14:02:35,454 - INFO -   Aqi Max: 0.7271
+2025-04-19 14:02:35,462 - INFO -   Urban Percentage: 0.5157
+2025-04-19 14:02:35,462 - INFO -   Population Density: 0.4888
+2025-04-19 14:02:35,462 - INFO - Calculating spearman correlations for 20 numeric variables
+2025-04-19 14:02:35,470 - INFO - Top correlations with AQI (spearman):
+2025-04-19 14:02:35,475 - INFO -   Aqi Median: 0.9266
+2025-04-19 14:02:35,475 - INFO -   Aqi Max: 0.7612
+2025-04-19 14:02:35,475 - INFO -   Urban Percentage: 0.4002
+2025-04-19 14:02:35,475 - INFO -   Population Density: 0.3067
+2025-04-19 14:02:35,482 - INFO - Creating correlation matrix visualization
+2025-04-19 14:02:37,658 - INFO - Saved correlation matrix visualization

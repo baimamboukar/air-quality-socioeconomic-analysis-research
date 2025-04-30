@@ -1,0 +1,7 @@
+2025-04-19 16:14:01,897 - INFO - Logging setup. Log file: logs\regression_analysis_20250419_161401.log
+2025-04-19 16:14:01,901 - INFO - Loaded dataset with 31 districts and 30 variables
+2025-04-19 16:14:01,901 - INFO - Using AQI_mean as dependent variable
+2025-04-19 16:14:01,901 - INFO - Starting multivariate regression analysis
+2025-04-19 16:14:01,901 - INFO - Processing model: base_model
+2025-04-19 16:14:01,901 - INFO - Preparing data for 'base_model' regression model
+2025-04-19 16:14:01,901 - INFO - Selected predictors: [None, 'population_density', 'road_density_m_km2', 'major_roads_ratio', 'major_roads_exposure_index']

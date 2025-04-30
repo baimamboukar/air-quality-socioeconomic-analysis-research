@@ -1,0 +1,34 @@
+2025-04-19 15:54:25,028 - INFO - Logging setup
+2025-04-19 15:54:25,035 - INFO - Loaded dataset with 31 districts
+2025-04-19 15:54:25,036 - INFO - Using AQI_mean as AQI variable
+2025-04-19 15:54:25,037 - INFO - Starting correlation analysis
+2025-04-19 15:54:25,038 - INFO - Calculating pearson correlations for 7 variables
+2025-04-19 15:54:25,040 - INFO - Top pearson correlations with AQI:
+2025-04-19 15:54:25,042 - INFO -   Urban Percentage: 0.5157
+2025-04-19 15:54:25,043 - INFO -   Rural Percentage: -0.5157
+2025-04-19 15:54:25,045 - INFO -   Population Density: 0.4888
+2025-04-19 15:54:25,048 - INFO -   Road Density: 0.2539
+2025-04-19 15:54:25,050 - INFO -   AVG YoY Change: 0.1739
+2025-04-19 15:54:25,051 - INFO -   Within 1km: 0.1065
+2025-04-19 15:54:25,051 - INFO - Calculating spearman correlations for 7 variables
+2025-04-19 15:54:25,055 - INFO - Top spearman correlations with AQI:
+2025-04-19 15:54:25,059 - INFO -   Urban Percentage: 0.4002
+2025-04-19 15:54:25,060 - INFO -   Rural Percentage: -0.4002
+2025-04-19 15:54:25,061 - INFO -   Population Density: 0.3067
+2025-04-19 15:54:25,063 - INFO -   AVG YoY Change: 0.2914
+2025-04-19 15:54:25,063 - INFO -   Road Density: 0.0930
+2025-04-19 15:54:25,065 - INFO -   Within 1km: -0.0837
+2025-04-19 15:54:25,066 - INFO - Creating correlation matrix visualization
+2025-04-19 15:54:25,562 - INFO - Saved correlation matrix visualization
+2025-04-19 15:54:25,896 - INFO - Created correlation comparison visualization
+2025-04-19 15:54:26,259 - INFO - Created scatter plot: AQI vs Road Density
+2025-04-19 15:54:26,625 - INFO - Created scatter plot: AQI vs Population Density
+2025-04-19 15:54:27,023 - INFO - Created scatter plot: AQI vs Urban Percentage
+2025-04-19 15:54:27,362 - INFO - Created scatter plot: AQI vs Rural Percentage
+2025-04-19 15:54:27,742 - INFO - Created scatter plot: AQI vs Within 1km
+2025-04-19 15:54:28,091 - INFO - Created scatter plot: AQI vs AVG YoY Change
+2025-04-19 15:54:28,091 - INFO - Creating composite figure with multiple correlations
+2025-04-19 15:54:29,207 - INFO - Created composite correlation visualization
+2025-04-19 15:54:29,207 - INFO - Analyzing correlations for 3 area types
+2025-04-19 15:54:29,270 - INFO - Saved urban/rural correlation differences
+2025-04-19 15:54:29,270 - INFO - Correlation analysis completed

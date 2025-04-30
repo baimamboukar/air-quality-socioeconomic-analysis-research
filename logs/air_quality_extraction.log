@@ -1,0 +1,159 @@
+2025-03-14 16:37:20,692 - AirQualityExtraction - INFO - AirQualityExtractor initialized
+2025-03-14 16:37:20,694 - AirQualityExtraction - INFO - Extracting data for all 7 pollutants
+2025-03-14 16:37:20,695 - AirQualityExtraction - INFO - Extracting UV Aerosol Index data
+2025-03-14 16:37:20,696 - AirQualityExtraction - INFO - Loading sectors from Earth Engine asset: projects/ml-for-earth-observation/assets/rwa_sectors
+2025-03-14 16:37:21,323 - google_auth_httplib2 - INFO - Refreshing credentials due to a 401 response. Attempt 1/2.
+2025-03-14 16:37:22,085 - AirQualityExtraction - ERROR - Error extracting UV_AEROSOL: Collection.loadTable: Collection asset 'projects/ml-for-earth-observation/assets/rwa_sectors' not found.
+2025-03-14 16:37:22,090 - AirQualityExtraction - INFO - Extracting Carbon Monoxide data
+2025-03-14 16:37:23,912 - AirQualityExtraction - INFO - Date range: 2020-03-14 to 2025-03-14
+2025-03-14 16:37:24,299 - AirQualityExtraction - ERROR - Error extracting CO: Collection.loadTable: Collection asset 'projects/ml-for-earth-observation/assets/rwa_sectors' not found.
+2025-03-14 16:37:24,301 - AirQualityExtraction - INFO - Extracting Formaldehyde data
+2025-03-14 16:37:25,053 - AirQualityExtraction - INFO - Date range: 2020-03-14 to 2025-03-14
+2025-03-14 16:37:25,432 - AirQualityExtraction - ERROR - Error extracting HCHO: Collection.loadTable: Collection asset 'projects/ml-for-earth-observation/assets/rwa_sectors' not found.
+2025-03-14 16:37:25,434 - AirQualityExtraction - INFO - Extracting Nitrogen Dioxide data
+2025-03-14 16:37:26,191 - AirQualityExtraction - INFO - Date range: 2020-03-14 to 2025-03-14
+2025-03-14 16:37:26,580 - AirQualityExtraction - ERROR - Error extracting NO2: Collection.loadTable: Collection asset 'projects/ml-for-earth-observation/assets/rwa_sectors' not found.
+2025-03-14 16:37:26,582 - AirQualityExtraction - INFO - Extracting Ozone data
+2025-03-14 16:37:27,353 - AirQualityExtraction - INFO - Date range: 2020-03-14 to 2025-03-14
+2025-03-14 16:37:27,732 - AirQualityExtraction - ERROR - Error extracting O3: Collection.loadTable: Collection asset 'projects/ml-for-earth-observation/assets/rwa_sectors' not found.
+2025-03-14 16:37:27,734 - AirQualityExtraction - INFO - Extracting Sulphur Dioxide data
+2025-03-14 16:37:28,451 - AirQualityExtraction - INFO - Date range: 2020-03-14 to 2025-03-14
+2025-03-14 16:37:28,824 - AirQualityExtraction - ERROR - Error extracting SO2: Collection.loadTable: Collection asset 'projects/ml-for-earth-observation/assets/rwa_sectors' not found.
+2025-03-14 16:37:28,826 - AirQualityExtraction - INFO - Extracting Methane data
+2025-03-14 16:37:29,566 - AirQualityExtraction - INFO - Date range: 2020-03-14 to 2025-03-14
+2025-03-14 16:37:30,133 - AirQualityExtraction - ERROR - Error extracting CH4: Collection.loadTable: Collection asset 'projects/ml-for-earth-observation/assets/rwa_sectors' not found.
+2025-03-14 16:37:30,140 - AirQualityExtraction - INFO - Exported task list to rwanda_air_quality\export_tasks.json
+2025-03-14 16:37:41,311 - AirQualityExtraction - INFO - AirQualityExtractor initialized
+2025-03-14 16:37:41,312 - AirQualityExtraction - INFO - Extracting data for all 7 pollutants
+2025-03-14 16:37:41,314 - AirQualityExtraction - INFO - Extracting UV Aerosol Index data
+2025-03-14 16:37:41,314 - AirQualityExtraction - INFO - Loading sectors from Earth Engine asset: projects/ml-for-earth-observation/assets/rwa_sector
+2025-03-14 16:37:41,778 - AirQualityExtraction - INFO - Loaded 416 sectors
+2025-03-14 16:37:42,271 - AirQualityExtraction - INFO - Sector properties: ['Dist_ID', 'District', 'Name', 'Prov_ID', 'Province', 'Sect_ID']
+2025-03-14 16:37:42,969 - AirQualityExtraction - INFO - Date range: 2020-03-14 to 2025-03-14
+2025-03-14 16:37:44,133 - AirQualityExtraction - INFO - Loaded 25815 images for UV Aerosol Index
+2025-03-14 16:37:44,140 - AirQualityExtraction - ERROR - Error extracting UV_AEROSOL: Cannot convert a computed geometry to GeoJSON. Wrap a getInfo() call in json.dumps instead.
+2025-03-14 16:37:44,141 - AirQualityExtraction - INFO - Extracting Carbon Monoxide data
+2025-03-14 16:37:44,880 - AirQualityExtraction - INFO - Date range: 2020-03-14 to 2025-03-14
+2025-03-14 16:37:46,403 - AirQualityExtraction - INFO - Loaded 25785 images for Carbon Monoxide
+2025-03-14 16:37:46,408 - AirQualityExtraction - ERROR - Error extracting CO: Cannot convert a computed geometry to GeoJSON. Wrap a getInfo() call in json.dumps instead.
+2025-03-14 16:37:46,409 - AirQualityExtraction - INFO - Extracting Formaldehyde data
+2025-03-14 16:37:47,151 - AirQualityExtraction - INFO - Date range: 2020-03-14 to 2025-03-14
+2025-03-14 16:37:48,774 - AirQualityExtraction - INFO - Loaded 25635 images for Formaldehyde
+2025-03-14 16:37:48,780 - AirQualityExtraction - ERROR - Error extracting HCHO: Cannot convert a computed geometry to GeoJSON. Wrap a getInfo() call in json.dumps instead.
+2025-03-14 16:37:48,782 - AirQualityExtraction - INFO - Extracting Nitrogen Dioxide data
+2025-03-14 16:37:49,440 - AirQualityExtraction - INFO - Date range: 2020-03-14 to 2025-03-14
+2025-03-14 16:37:50,862 - AirQualityExtraction - INFO - Loaded 25593 images for Nitrogen Dioxide
+2025-03-14 16:37:50,872 - AirQualityExtraction - ERROR - Error extracting NO2: Cannot convert a computed geometry to GeoJSON. Wrap a getInfo() call in json.dumps instead.
+2025-03-14 16:37:50,872 - AirQualityExtraction - INFO - Extracting Ozone data
+2025-03-14 16:37:51,596 - AirQualityExtraction - INFO - Date range: 2020-03-14 to 2025-03-14
+2025-03-14 16:37:53,660 - AirQualityExtraction - INFO - Loaded 25796 images for Ozone
+2025-03-14 16:37:53,667 - AirQualityExtraction - ERROR - Error extracting O3: Cannot convert a computed geometry to GeoJSON. Wrap a getInfo() call in json.dumps instead.
+2025-03-14 16:37:53,669 - AirQualityExtraction - INFO - Extracting Sulphur Dioxide data
+2025-03-14 16:37:54,286 - AirQualityExtraction - INFO - Date range: 2020-03-14 to 2025-03-14
+2025-03-14 16:37:55,744 - AirQualityExtraction - INFO - Loaded 25774 images for Sulphur Dioxide
+2025-03-14 16:37:55,751 - AirQualityExtraction - ERROR - Error extracting SO2: Cannot convert a computed geometry to GeoJSON. Wrap a getInfo() call in json.dumps instead.
+2025-03-14 16:37:55,752 - AirQualityExtraction - INFO - Extracting Methane data
+2025-03-14 16:37:56,437 - AirQualityExtraction - INFO - Date range: 2020-03-14 to 2025-03-14
+2025-03-14 16:37:58,033 - AirQualityExtraction - INFO - Loaded 24450 images for Methane
+2025-03-14 16:37:58,039 - AirQualityExtraction - ERROR - Error extracting CH4: Cannot convert a computed geometry to GeoJSON. Wrap a getInfo() call in json.dumps instead.
+2025-03-14 16:37:58,042 - AirQualityExtraction - INFO - Exported task list to rwanda_air_quality\export_tasks.json
+2025-03-14 16:56:37,178 - AirQualityExtraction - INFO - AirQualityExtractor initialized
+2025-03-14 16:56:37,181 - AirQualityExtraction - INFO - Extracting data for all 7 pollutants
+2025-03-14 16:56:37,181 - AirQualityExtraction - INFO - Extracting UV Aerosol Index data
+2025-03-14 16:56:37,182 - AirQualityExtraction - INFO - Loading sectors from Earth Engine asset: projects/ml-for-earth-observation/assets/rwa_sector
+2025-03-14 16:56:37,636 - AirQualityExtraction - INFO - Loaded 416 sectors
+2025-03-14 16:56:38,109 - AirQualityExtraction - INFO - Sector properties: ['Dist_ID', 'District', 'Name', 'Prov_ID', 'Province', 'Sect_ID']
+2025-03-14 16:56:38,844 - AirQualityExtraction - INFO - Date range: 2025-01-14 to 2025-03-14
+2025-03-14 16:56:39,540 - AirQualityExtraction - INFO - Loaded 794 images for UV Aerosol Index
+2025-03-14 16:56:40,104 - AirQualityExtraction - INFO - Started export task for UV Aerosol Index: 5KW432ED55OHB7LYIJ6TNG2D
+2025-03-14 16:56:42,865 - AirQualityExtraction - INFO - Extracting Carbon Monoxide data
+2025-03-14 16:56:43,607 - AirQualityExtraction - INFO - Date range: 2025-01-14 to 2025-03-14
+2025-03-14 16:56:44,229 - AirQualityExtraction - INFO - Loaded 792 images for Carbon Monoxide
+2025-03-14 16:56:44,845 - AirQualityExtraction - INFO - Started export task for Carbon Monoxide: YGRMK6XARKMKZD245UUFLNBW
+2025-03-14 16:56:47,584 - AirQualityExtraction - INFO - Extracting Formaldehyde data
+2025-03-14 16:56:48,220 - AirQualityExtraction - INFO - Date range: 2025-01-14 to 2025-03-14
+2025-03-14 16:56:48,957 - AirQualityExtraction - INFO - Loaded 791 images for Formaldehyde
+2025-03-14 16:56:49,484 - AirQualityExtraction - INFO - Started export task for Formaldehyde: Q5226DOUBU74UKJWE2D5KZ26
+2025-03-14 16:56:52,136 - AirQualityExtraction - INFO - Extracting Nitrogen Dioxide data
+2025-03-14 16:56:52,850 - AirQualityExtraction - INFO - Date range: 2025-01-14 to 2025-03-14
+2025-03-14 16:56:53,669 - AirQualityExtraction - INFO - Loaded 699 images for Nitrogen Dioxide
+2025-03-14 16:56:54,224 - AirQualityExtraction - INFO - Started export task for Nitrogen Dioxide: XANSWJKPJZNVHH4BI7GBH42H
+2025-03-14 16:56:56,975 - AirQualityExtraction - INFO - Extracting Ozone data
+2025-03-14 16:56:57,714 - AirQualityExtraction - INFO - Date range: 2025-01-14 to 2025-03-14
+2025-03-14 16:56:58,470 - AirQualityExtraction - INFO - Loaded 786 images for Ozone
+2025-03-14 16:56:59,001 - AirQualityExtraction - INFO - Started export task for Ozone: 4GF4YBUP3WI7YJ74VJRSNB3K
+2025-03-14 16:57:01,707 - AirQualityExtraction - INFO - Extracting Sulphur Dioxide data
+2025-03-14 16:57:02,416 - AirQualityExtraction - INFO - Date range: 2025-01-14 to 2025-03-14
+2025-03-14 16:57:03,232 - AirQualityExtraction - INFO - Loaded 786 images for Sulphur Dioxide
+2025-03-14 16:57:03,774 - AirQualityExtraction - INFO - Started export task for Sulphur Dioxide: VDT5CKW3UUT4OWD6GI72LQ4L
+2025-03-14 16:57:06,474 - AirQualityExtraction - INFO - Extracting Methane data
+2025-03-14 16:57:07,196 - AirQualityExtraction - INFO - Date range: 2025-01-14 to 2025-03-14
+2025-03-14 16:57:07,908 - AirQualityExtraction - INFO - Loaded 788 images for Methane
+2025-03-14 16:57:08,498 - AirQualityExtraction - INFO - Started export task for Methane: CJDZMIRQ2OOP4BZBHJMEHGEU
+2025-03-14 17:23:35,018 - AirQualityExtraction - INFO - AirQualityExtractor initialized
+2025-03-14 17:23:35,024 - AirQualityExtraction - INFO - Extracting data for all 7 pollutants
+2025-03-14 17:23:35,028 - AirQualityExtraction - INFO - Extracting UV Aerosol Index data
+2025-03-14 17:23:35,031 - AirQualityExtraction - INFO - Loading sectors from Earth Engine asset: projects/ml-for-earth-observation/assets/rwa_sectors
+2025-03-14 17:23:35,424 - AirQualityExtraction - ERROR - Error extracting UV_AEROSOL: Collection.loadTable: Collection asset 'projects/ml-for-earth-observation/assets/rwa_sectors' not found.
+2025-03-14 17:23:35,428 - AirQualityExtraction - INFO - Extracting Carbon Monoxide data
+2025-03-14 17:23:36,155 - AirQualityExtraction - INFO - Date range: 2025-01-14 to 2025-03-14
+2025-03-14 17:23:36,562 - AirQualityExtraction - ERROR - Error extracting CO: Collection.loadTable: Collection asset 'projects/ml-for-earth-observation/assets/rwa_sectors' not found.
+2025-03-14 17:23:36,564 - AirQualityExtraction - INFO - Extracting Formaldehyde data
+2025-03-14 17:23:37,275 - AirQualityExtraction - INFO - Date range: 2025-01-14 to 2025-03-14
+2025-03-14 17:23:37,657 - AirQualityExtraction - ERROR - Error extracting HCHO: Collection.loadTable: Collection asset 'projects/ml-for-earth-observation/assets/rwa_sectors' not found.
+2025-03-14 17:23:37,659 - AirQualityExtraction - INFO - Extracting Nitrogen Dioxide data
+2025-03-14 17:23:38,447 - AirQualityExtraction - INFO - Date range: 2025-01-14 to 2025-03-14
+2025-03-14 17:23:38,843 - AirQualityExtraction - ERROR - Error extracting NO2: Collection.loadTable: Collection asset 'projects/ml-for-earth-observation/assets/rwa_sectors' not found.
+2025-03-14 17:23:38,846 - AirQualityExtraction - INFO - Extracting Ozone data
+2025-03-14 17:23:39,547 - AirQualityExtraction - INFO - Date range: 2025-01-14 to 2025-03-14
+2025-03-14 17:23:39,946 - AirQualityExtraction - ERROR - Error extracting O3: Collection.loadTable: Collection asset 'projects/ml-for-earth-observation/assets/rwa_sectors' not found.
+2025-03-14 17:23:39,947 - AirQualityExtraction - INFO - Extracting Sulphur Dioxide data
+2025-03-14 17:23:40,666 - AirQualityExtraction - INFO - Date range: 2025-01-14 to 2025-03-14
+2025-03-14 17:23:40,988 - AirQualityExtraction - ERROR - Error extracting SO2: Collection.loadTable: Collection asset 'projects/ml-for-earth-observation/assets/rwa_sectors' not found.
+2025-03-14 17:23:40,990 - AirQualityExtraction - INFO - Extracting Methane data
+2025-03-14 17:23:41,698 - AirQualityExtraction - INFO - Date range: 2025-01-14 to 2025-03-14
+2025-03-14 17:23:42,008 - AirQualityExtraction - ERROR - Error extracting CH4: Collection.loadTable: Collection asset 'projects/ml-for-earth-observation/assets/rwa_sectors' not found.
+2025-03-14 17:23:42,013 - AirQualityExtraction - INFO - Exported task list to rwanda_air_quality\export_tasks.json
+2025-03-14 17:23:42,015 - AirQualityExtraction - INFO - Exported task list to rwanda_air_quality\export_tasks.json
+2025-03-15 01:11:17,851 - AirQualityExtraction - INFO - AirQualityExtractor initialized
+2025-03-15 01:11:17,867 - AirQualityExtraction - INFO - Extracting data for all 7 pollutants
+2025-03-15 01:11:17,867 - AirQualityExtraction - INFO - Extracting UV Aerosol Index data
+2025-03-15 01:11:17,867 - AirQualityExtraction - INFO - Loading sectors from Earth Engine asset: projects/ml-for-earth-observation/assets/rwa_sector
+2025-03-15 01:11:18,476 - AirQualityExtraction - INFO - Loaded 416 sectors
+2025-03-15 01:11:19,826 - AirQualityExtraction - INFO - Sector properties: ['Dist_ID', 'District', 'Name', 'Prov_ID', 'Province', 'Sect_ID']
+2025-03-15 01:11:21,411 - AirQualityExtraction - INFO - Date range: 2025-01-15 to 2025-03-15
+2025-03-15 01:11:23,042 - AirQualityExtraction - INFO - Loaded 780 images for UV Aerosol Index
+2025-03-15 01:11:23,057 - AirQualityExtraction - INFO - Extracting band 'absorbing_aerosol_index' for UV Aerosol Index
+2025-03-15 01:11:23,066 - AirQualityExtraction - ERROR - Error extracting UV_AEROSOL: module 'ee' has no attribute 'Boolean'
+2025-03-15 01:11:23,066 - AirQualityExtraction - INFO - Extracting Carbon Monoxide data
+2025-03-15 01:11:25,258 - AirQualityExtraction - INFO - Date range: 2025-01-15 to 2025-03-15
+2025-03-15 01:11:26,158 - AirQualityExtraction - INFO - Loaded 778 images for Carbon Monoxide
+2025-03-15 01:11:26,178 - AirQualityExtraction - INFO - Extracting band 'CO_column_number_density' for Carbon Monoxide
+2025-03-15 01:11:26,180 - AirQualityExtraction - ERROR - Error extracting CO: module 'ee' has no attribute 'Boolean'
+2025-03-15 01:11:26,188 - AirQualityExtraction - INFO - Extracting Formaldehyde data
+2025-03-15 01:11:27,490 - AirQualityExtraction - INFO - Date range: 2025-01-15 to 2025-03-15
+2025-03-15 01:11:28,506 - AirQualityExtraction - INFO - Loaded 777 images for Formaldehyde
+2025-03-15 01:11:28,518 - AirQualityExtraction - INFO - Extracting band 'tropospheric_HCHO_column_number_density' for Formaldehyde
+2025-03-15 01:11:28,523 - AirQualityExtraction - ERROR - Error extracting HCHO: module 'ee' has no attribute 'Boolean'
+2025-03-15 01:11:28,526 - AirQualityExtraction - INFO - Extracting Nitrogen Dioxide data
+2025-03-15 01:11:29,803 - AirQualityExtraction - INFO - Date range: 2025-01-15 to 2025-03-15
+2025-03-15 01:11:30,923 - AirQualityExtraction - INFO - Loaded 685 images for Nitrogen Dioxide
+2025-03-15 01:11:30,937 - AirQualityExtraction - INFO - Extracting band 'tropospheric_NO2_column_number_density' for Nitrogen Dioxide
+2025-03-15 01:11:30,937 - AirQualityExtraction - ERROR - Error extracting NO2: module 'ee' has no attribute 'Boolean'
+2025-03-15 01:11:30,947 - AirQualityExtraction - INFO - Extracting Ozone data
+2025-03-15 01:11:32,018 - AirQualityExtraction - INFO - Date range: 2025-01-15 to 2025-03-15
+2025-03-15 01:11:33,021 - AirQualityExtraction - INFO - Loaded 772 images for Ozone
+2025-03-15 01:11:33,042 - AirQualityExtraction - INFO - Extracting band 'O3_column_number_density' for Ozone
+2025-03-15 01:11:33,050 - AirQualityExtraction - ERROR - Error extracting O3: module 'ee' has no attribute 'Boolean'
+2025-03-15 01:11:33,052 - AirQualityExtraction - INFO - Extracting Sulphur Dioxide data
+2025-03-15 01:11:34,866 - AirQualityExtraction - INFO - Date range: 2025-01-15 to 2025-03-15
+2025-03-15 01:11:35,689 - AirQualityExtraction - INFO - Loaded 772 images for Sulphur Dioxide
+2025-03-15 01:11:35,706 - AirQualityExtraction - INFO - Extracting band 'SO2_column_number_density' for Sulphur Dioxide
+2025-03-15 01:11:35,716 - AirQualityExtraction - ERROR - Error extracting SO2: module 'ee' has no attribute 'Boolean'
+2025-03-15 01:11:35,718 - AirQualityExtraction - INFO - Extracting Methane data
+2025-03-15 01:11:37,825 - AirQualityExtraction - INFO - Date range: 2025-01-15 to 2025-03-15
+2025-03-15 01:11:38,974 - AirQualityExtraction - INFO - Loaded 774 images for Methane
+2025-03-15 01:11:38,989 - AirQualityExtraction - INFO - Extracting band 'CH4_column_volume_mixing_ratio_dry_air' for Methane
+2025-03-15 01:11:38,989 - AirQualityExtraction - ERROR - Error extracting CH4: module 'ee' has no attribute 'Boolean'
+2025-03-15 01:11:39,005 - AirQualityExtraction - INFO - Exported task list to rwanda_air_quality\export_tasks.json
+2025-03-15 01:11:39,013 - AirQualityExtraction - INFO - Exported task list to rwanda_air_quality\export_tasks.json

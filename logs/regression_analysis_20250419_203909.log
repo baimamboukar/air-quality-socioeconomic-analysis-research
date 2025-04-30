@@ -1,0 +1,29 @@
+2025-04-19 20:39:09,308 - INFO - Logging setup
+2025-04-19 20:39:09,316 - INFO - Loaded dataset with 31 districts
+2025-04-19 20:39:09,316 - INFO - Using AQI_mean as dependent variable
+2025-04-19 20:39:09,316 - INFO - Starting regression analysis
+2025-04-19 20:39:09,316 - INFO - Fitting full regression model with predictors: road_density_m_km2, population_density, urban_percentage, major_roads_ratio, total_road_length_m, major_roads_exposure_index, avg_yoy_change
+2025-04-19 20:39:09,336 - INFO - Variance Inflation Factors (VIF):
+2025-04-19 20:39:09,337 - INFO -   road_density_m_km2: 14.29
+2025-04-19 20:39:09,339 - INFO -   population_density: 22.59
+2025-04-19 20:39:09,341 - INFO -   urban_percentage: 9.88
+2025-04-19 20:39:09,342 - INFO -   major_roads_ratio: 7.75
+2025-04-19 20:39:09,343 - INFO -   total_road_length_m: 3.33
+2025-04-19 20:39:09,345 - INFO -   major_roads_exposure_index: 12.84
+2025-04-19 20:39:09,348 - INFO -   avg_yoy_change: 2.06
+2025-04-19 20:39:09,350 - WARNING - High multicollinearity detected:
+2025-04-19 20:39:09,351 - WARNING -   road_density_m_km2: VIF = 14.29
+2025-04-19 20:39:09,353 - WARNING -   population_density: VIF = 22.59
+2025-04-19 20:39:09,354 - WARNING -   urban_percentage: VIF = 9.88
+2025-04-19 20:39:09,355 - WARNING -   major_roads_ratio: VIF = 7.75
+2025-04-19 20:39:09,356 - WARNING -   major_roads_exposure_index: VIF = 12.84
+2025-04-19 20:39:09,369 - INFO - Best predictors for full: major_roads_exposure_index
+2025-04-19 20:39:09,370 - INFO - Fitting best regression model with predictors: major_roads_exposure_index
+2025-04-19 20:39:09,377 - INFO - Variance Inflation Factors (VIF):
+2025-04-19 20:39:09,379 - INFO -   major_roads_exposure_index: 1.00
+2025-04-19 20:39:09,791 - INFO - Saved regression coefficients plot
+2025-04-19 20:39:10,093 - INFO - Saved actual vs. predicted plot
+2025-04-19 20:39:11,410 - INFO - Saved regression coefficients plot
+2025-04-19 20:39:11,713 - INFO - Saved actual vs. predicted plot
+2025-04-19 20:39:11,976 - INFO - Saved performance comparison plot
+2025-04-19 20:39:11,977 - INFO - Regression analysis completed

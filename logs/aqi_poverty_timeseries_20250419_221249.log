@@ -1,0 +1,10 @@
+2025-04-19 22:12:49,222 - INFO - Logging initialised
+2025-04-19 22:12:49,402 - INFO - Loaded AQI dataset with 25376 records
+2025-04-19 22:12:49,402 - INFO - Loaded poverty dataset with 416 sectors
+2025-04-19 22:12:49,695 - INFO - Merged dataset contains 30805 records after joining on sector
+2025-04-19 22:12:49,705 - INFO - Assigned poverty categories based on score tertiles
+2025-04-19 22:12:49,826 - INFO - Trend slopes calculated
+2025-04-19 22:12:50,243 - INFO - Saved AQI trend plot
+2025-04-19 22:12:50,589 - INFO - Saved YoY AQI change plot
+2025-04-19 22:12:50,927 - INFO - Saved AQI distribution plot
+2025-04-19 22:12:50,927 - INFO - Analysis complete

@@ -1,0 +1,31 @@
+province,district,total_population,urban_population,rural_population,male_population,female_population,population_share_percentage,population_density,total_percentage,urban_percentage,rural_percentage,urban_rural_label
+City of Kigali,Nyarugenge,374319,315899,58420,195780,178539,2.8,2830,100,84.4,15.6,urban
+City of Kigali,Gasabo,879505,714069,165436,443987,435518,6.6,2056,100,81.2,18.8,urban
+City of Kigali,Kicukiro,491731,487200,4531,249115,242616,3.7,2944,100,99.1,0.9,urban
+Southern Province,Nyanza,365715,33765,331953,178642,187073,2.8,545,100,9.2,90.8,rural
+Southern Province,Gisagara,397051,13513,383538,188965,208086,3.0,584,100,3.4,96.6,rural
+Southern Province,Nyaruguru,318126,7641,310485,151980,166146,2.4,409,100,2.4,97.6,rural
+Southern Province,Huye,381900,79744,302156,188859,193041,2.9,627,100,20.9,79.1,peri-urban
+Southern Province,Nyamagabe,371501,40592,330909,176725,194776,2.8,441,100,10.9,89.1,rural
+Southern Province,Ruhango,359121,39079,320042,172092,187029,2.7,573,100,10.9,89.1,rural
+Southern Province,Muhanga,358433,87252,271181,173615,184818,2.7,555,100,24.3,75.7,peri-urban
+Southern Province,Kamonyi,450849,142520,308329,217570,233279,3.4,683,100,31.6,68.4,peri-urban
+Western Province,Karongi,373869,33542,340327,178417,195452,2.8,482,100,9.0,91.0,rural
+Western Province,Rutsiro,369180,20606,348574,176498,192682,2.8,565,100,5.6,94.4,rural
+Western Province,Rubavu,546683,294448,252235,267299,279384,4.1,1214,100,53.9,46.1,urban
+Western Province,Nyabihu,319047,78027,241020,150072,168975,2.4,642,100,24.5,75.5,peri-urban
+Western Province,Ngororero,367955,18142,349813,171065,196890,2.8,451,100,4.9,95.1,rural
+Western Province,Rusizi,485529,162165,323364,236426,249103,3.7,871,100,33.4,66.6,peri-urban
+Western Province,Nyamasheke,434221,33377,400844,204838,229383,3.3,632,100,7.7,92.3,rural
+Northern Province,Rulindo,360144,38110,322034,171849,188295,2.7,635,100,10.6,89.4,rural
+Northern Province,Gakenke,345292,14788,330504,172600,192692,2.8,520,100,4.3,95.7,rural
+Northern Province,Musanze,476522,234258,242264,227340,249182,3.6,1157,100,49.2,50.8,peri-urban
+Northern Province,Burera,387729,38442,349287,184782,202947,2.9,682,100,9.9,90.1,rural
+Northern Province,Gicumbi,448824,28138,420693,216389,232435,3.4,510,100,6.3,93.7,rural
+Eastern Province,Rwamagana,484953,180056,304897,243794,241159,3.7,740,100,37.1,62.9,peri-urban
+Eastern Province,Nyagatare,653861,157894,495967,318740,335121,4.9,373,100,24.1,75.9,peri-urban
+Eastern Province,Gatsibo,551164,55351,495813,264461,286703,4.2,435,100,10.0,90.0,rural
+Eastern Province,Kayonza,457156,65071,392085,221448,235708,3.5,338,100,14.2,85.8,rural
+Eastern Province,Kirehe,460860,29039,431821,221763,239097,3.5,535,100,6.3,93.7,rural
+Eastern Province,Ngoma,404045,37297,366748,192720,211325,3.1,498,100,9.2,90.8,rural
+Eastern Province,Bugesera,551103,221227,329876,271468,279635,4.2,430,100,40.1,59.9,peri-urban

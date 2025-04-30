@@ -1,0 +1,99 @@
+2025-04-19 12:21:47,462 - INFO - Logging setup. Log file: logs\correlation_analysis_20250419_122147.log
+2025-04-19 12:21:47,478 - INFO - Loaded dataset with 31 districts and 30 variables
+2025-04-19 12:21:47,478 - INFO - Using AQI_mean as AQI variable
+2025-04-19 12:21:47,493 - INFO - Using None as poverty variable
+2025-04-19 12:21:47,495 - INFO - Starting full analysis
+2025-04-19 12:21:47,495 - INFO - Calculating correlations
+2025-04-19 12:21:47,495 - INFO - Calculating pearson correlations
+2025-04-19 12:21:47,495 - INFO - Calculating correlations for 21 numeric variables
+2025-04-19 12:21:47,512 - INFO - Correlations with AQI_mean (pearson):
+2025-04-19 12:21:47,513 - INFO - AQI_mean: 1.0000
+2025-04-19 12:21:47,514 - INFO - AQI_median: 0.9340
+2025-04-19 12:21:47,515 - INFO - AQI_max: 0.7271
+2025-04-19 12:21:47,516 - INFO - urban_percentage: 0.5157
+2025-04-19 12:21:47,516 - INFO - population_density: 0.4888
+2025-04-19 12:21:47,516 - INFO - AQI_min: 0.4300
+2025-04-19 12:21:47,516 - INFO - road_density_m_km2: 0.2539
+2025-04-19 12:21:47,516 - INFO - avg_yoy_change: 0.1739
+2025-04-19 12:21:47,516 - INFO - pct_within_1km: 0.1065
+2025-04-19 12:21:47,516 - INFO - AQI_std: 0.0636
+2025-04-19 12:21:47,527 - INFO - major_roads_ratio: 0.0620
+2025-04-19 12:21:47,529 - INFO - major_roads_exposure_index: 0.0169
+2025-04-19 12:21:47,532 - INFO - area_sqkm: -0.0548
+2025-04-19 12:21:47,533 - INFO - road_coverage_index: -0.0567
+2025-04-19 12:21:47,534 - INFO - pct_within_10km: -0.1709
+2025-04-19 12:21:47,535 - INFO - total_road_length_m: -0.1926
+2025-04-19 12:21:47,537 - INFO - pct_within_5km: -0.2184
+2025-04-19 12:21:47,539 - INFO - avg_yoy_pct_change: -0.2233
+2025-04-19 12:21:47,539 - INFO - AQI_cv: -0.3373
+2025-04-19 12:21:47,539 - INFO - rural_percentage: -0.5157
+2025-04-19 12:21:47,545 - INFO - AQI_count: nan
+2025-04-19 12:21:47,548 - INFO - Calculating spearman correlations
+2025-04-19 12:21:47,551 - INFO - Calculating correlations for 21 numeric variables
+2025-04-19 12:21:47,557 - INFO - Correlations with AQI_mean (spearman):
+2025-04-19 12:21:47,557 - INFO - AQI_mean: 1.0000
+2025-04-19 12:21:47,561 - INFO - AQI_median: 0.9266
+2025-04-19 12:21:47,564 - INFO - AQI_max: 0.7612
+2025-04-19 12:21:47,565 - INFO - urban_percentage: 0.4002
+2025-04-19 12:21:47,568 - INFO - population_density: 0.3067
+2025-04-19 12:21:47,569 - INFO - avg_yoy_change: 0.2914
+2025-04-19 12:21:47,570 - INFO - AQI_min: 0.2684
+2025-04-19 12:21:47,571 - INFO - AQI_std: 0.1728
+2025-04-19 12:21:47,572 - INFO - road_density_m_km2: 0.0930
+2025-04-19 12:21:47,573 - INFO - avg_yoy_pct_change: -0.0256
+2025-04-19 12:21:47,573 - INFO - road_coverage_index: -0.0337
+2025-04-19 12:21:47,573 - INFO - major_roads_ratio: -0.0764
+2025-04-19 12:21:47,579 - INFO - major_roads_exposure_index: -0.0780
+2025-04-19 12:21:47,583 - INFO - pct_within_1km: -0.0837
+2025-04-19 12:21:47,586 - INFO - area_sqkm: -0.1051
+2025-04-19 12:21:47,588 - INFO - total_road_length_m: -0.1067
+2025-04-19 12:21:47,590 - INFO - pct_within_5km: -0.1612
+2025-04-19 12:21:47,591 - INFO - AQI_cv: -0.2015
+2025-04-19 12:21:47,593 - INFO - pct_within_10km: -0.2092
+2025-04-19 12:21:47,593 - INFO - rural_percentage: -0.4002
+2025-04-19 12:21:47,600 - INFO - AQI_count: nan
+2025-04-19 12:21:47,602 - INFO - Creating correlation matrix visualization
+2025-04-19 12:21:47,603 - INFO - Creating correlation matrix visualization using pearson method
+2025-04-19 12:21:49,122 - INFO - Saved correlation matrix to figures\correlation_matrix_pearson_20250419_122147.png
+2025-04-19 12:21:49,123 - INFO - Creating scatter plots for key variables
+2025-04-19 12:21:49,124 - INFO - Plotting AQI vs road_density_m_km2
+2025-04-19 12:21:49,129 - INFO - Coloring by urban_rural_type with 3 categories
+2025-04-19 12:21:49,179 - INFO - Correlation between road_density_m_km2 and AQI_mean: r=0.2539, p=0.1681
+2025-04-19 12:21:49,594 - INFO - Saved scatter plot to figures\aqi_vs_road_density_m_km2_20250419_122147.png
+2025-04-19 12:21:49,595 - INFO - Plotting AQI vs population_density
+2025-04-19 12:21:49,595 - INFO - Coloring by urban_rural_type with 3 categories
+2025-04-19 12:21:49,611 - INFO - Correlation between population_density and AQI_mean: r=0.4888, p=0.0053
+2025-04-19 12:21:50,001 - INFO - Saved scatter plot to figures\aqi_vs_population_density_20250419_122147.png
+2025-04-19 12:21:50,001 - INFO - Plotting AQI vs major_roads_exposure_index
+2025-04-19 12:21:50,001 - INFO - Coloring by urban_rural_type with 3 categories
+2025-04-19 12:21:50,037 - INFO - Correlation between major_roads_exposure_index and AQI_mean: r=0.0169, p=0.9280
+2025-04-19 12:21:50,515 - INFO - Saved scatter plot to figures\aqi_vs_major_roads_exposure_index_20250419_122147.png
+2025-04-19 12:21:50,515 - INFO - Plotting AQI vs road_coverage_index
+2025-04-19 12:21:50,515 - INFO - Coloring by urban_rural_type with 3 categories
+2025-04-19 12:21:50,549 - INFO - Correlation between road_coverage_index and AQI_mean: r=-0.0567, p=0.7618
+2025-04-19 12:21:51,015 - INFO - Saved scatter plot to figures\aqi_vs_road_coverage_index_20250419_122147.png
+2025-04-19 12:21:51,015 - INFO - Creating correlation comparison visualization
+2025-04-19 12:21:51,015 - INFO - Creating correlation comparison visualization
+2025-04-19 12:21:51,015 - INFO - Selected 8 key variables for comparison
+2025-04-19 12:21:51,547 - INFO - Saved correlation comparison to figures\correlation_comparison_20250419_122147.png
+2025-04-19 12:21:51,547 - INFO - Analyzing correlation differences by urban/rural classification
+2025-04-19 12:21:51,547 - INFO - Analyzing urban/rural differences
+2025-04-19 12:21:51,547 - INFO - Found 3 area types
+2025-04-19 12:21:51,559 - INFO - Analyzing correlations for urban areas (n=4)
+2025-04-19 12:21:51,579 - INFO - urban - road_density_m_km2: r=-0.8525, p=0.1475
+2025-04-19 12:21:51,581 - INFO - urban - population_density: r=-0.7885, p=0.2115
+2025-04-19 12:21:51,581 - INFO - urban - major_roads_ratio: r=0.5209, p=0.4791
+2025-04-19 12:21:51,598 - INFO - urban - road_coverage_index: r=-0.3894, p=0.6106
+2025-04-19 12:21:51,598 - INFO - Analyzing correlations for rural areas (n=18)
+2025-04-19 12:21:51,609 - INFO - rural - road_density_m_km2: r=-0.3359, p=0.1729
+2025-04-19 12:21:51,614 - INFO - rural - population_density: r=0.0818, p=0.7468
+2025-04-19 12:21:51,630 - INFO - rural - major_roads_ratio: r=-0.2381, p=0.3413
+2025-04-19 12:21:51,647 - INFO - rural - road_coverage_index: r=-0.4503, p=0.0608
+2025-04-19 12:21:51,648 - INFO - Analyzing correlations for peri-urban areas (n=9)
+2025-04-19 12:21:51,660 - INFO - peri-urban - road_density_m_km2: r=-0.6274, p=0.0705
+2025-04-19 12:21:51,667 - INFO - peri-urban - population_density: r=-0.1920, p=0.6207
+2025-04-19 12:21:51,679 - INFO - peri-urban - major_roads_ratio: r=-0.6235, p=0.0728
+2025-04-19 12:21:51,681 - INFO - peri-urban - road_coverage_index: r=0.0313, p=0.9364
+2025-04-19 12:21:51,696 - INFO - Saved urban/rural correlation differences to figures\urban_rural_correlations_20250419_122147.csv
+2025-04-19 12:21:51,698 - INFO - Full analysis completed
+2025-04-19 12:21:51,698 - INFO - Analysis complete

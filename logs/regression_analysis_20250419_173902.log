@@ -1,0 +1,65 @@
+2025-04-19 17:39:02,140 - INFO - Logging setup
+2025-04-19 17:39:02,140 - INFO - Loaded dataset with 31 districts
+2025-04-19 17:39:02,157 - INFO - Using AQI_mean as dependent variable
+2025-04-19 17:39:02,157 - INFO - Starting regression analysis
+2025-04-19 17:39:02,157 - INFO - Note: Poverty index not found in dataset; proceeding with other variables
+2025-04-19 17:39:02,157 - INFO - Fitting basic regression model with predictors: road_density_m_km2, population_density, major_roads_ratio
+2025-04-19 17:39:02,175 - INFO - Variance Inflation Factors (VIF):
+2025-04-19 17:39:02,175 - INFO -   road_density_m_km2: 3.29
+2025-04-19 17:39:02,175 - INFO -   population_density: 3.49
+2025-04-19 17:39:02,175 - INFO -   major_roads_ratio: 1.12
+2025-04-19 17:39:02,190 - INFO - 
+Model basic Summary:
+2025-04-19 17:39:02,190 - INFO -   R-squared: 0.3260
+2025-04-19 17:39:02,190 - INFO -   Adjusted R-squared: 0.2511
+2025-04-19 17:39:02,190 - INFO -   F-statistic: 4.3538 (p=0.0126)
+2025-04-19 17:39:02,190 - INFO -   Coefficients:
+2025-04-19 17:39:02,190 - INFO -     road_density_m_km2: -0.5201 (p=0.0807)
+2025-04-19 17:39:02,190 - INFO -     population_density: 0.9539 (p=0.0032)
+2025-04-19 17:39:02,206 - INFO -     major_roads_ratio: -0.1318 (p=0.4370)
+2025-04-19 17:39:02,207 - INFO - Fitting extended regression model with predictors: road_density_m_km2, population_density, urban_percentage, major_roads_ratio, total_road_length_m, major_roads_exposure_index
+2025-04-19 17:39:02,223 - INFO - Variance Inflation Factors (VIF):
+2025-04-19 17:39:02,223 - INFO -   road_density_m_km2: 13.33
+2025-04-19 17:39:02,223 - INFO -   population_density: 16.86
+2025-04-19 17:39:02,223 - INFO -   urban_percentage: 8.38
+2025-04-19 17:39:02,223 - INFO -   major_roads_ratio: 5.83
+2025-04-19 17:39:02,223 - INFO -   total_road_length_m: 2.61
+2025-04-19 17:39:02,223 - INFO -   major_roads_exposure_index: 11.85
+2025-04-19 17:39:02,223 - WARNING - High multicollinearity detected:
+2025-04-19 17:39:02,223 - WARNING -   road_density_m_km2: VIF = 13.33
+2025-04-19 17:39:02,223 - WARNING -   population_density: VIF = 16.86
+2025-04-19 17:39:02,238 - WARNING -   urban_percentage: VIF = 8.38
+2025-04-19 17:39:02,239 - WARNING -   major_roads_ratio: VIF = 5.83
+2025-04-19 17:39:02,240 - WARNING -   major_roads_exposure_index: VIF = 11.85
+2025-04-19 17:39:02,240 - INFO - 
+Model extended Summary:
+2025-04-19 17:39:02,240 - INFO -   R-squared: 0.4580
+2025-04-19 17:39:02,256 - INFO -   Adjusted R-squared: 0.3225
+2025-04-19 17:39:02,257 - INFO -   F-statistic: 3.3801 (p=0.0147)
+2025-04-19 17:39:02,257 - INFO -   Coefficients:
+2025-04-19 17:39:02,257 - INFO -     road_density_m_km2: 0.5066 (p=0.3650)
+2025-04-19 17:39:02,257 - INFO -     population_density: -0.0576 (p=0.9264)
+2025-04-19 17:39:02,257 - INFO -     urban_percentage: 0.5761 (p=0.1980)
+2025-04-19 17:39:02,257 - INFO -     major_roads_ratio: 0.6393 (p=0.0909)
+2025-04-19 17:39:02,257 - INFO -     total_road_length_m: -0.2069 (p=0.4025)
+2025-04-19 17:39:02,257 - INFO -     major_roads_exposure_index: -1.1248 (p=0.0397)
+2025-04-19 17:39:02,272 - INFO - Fitting urban regression model with predictors: urban_percentage, population_density, road_density_m_km2
+2025-04-19 17:39:02,273 - INFO - Variance Inflation Factors (VIF):
+2025-04-19 17:39:02,273 - INFO -   urban_percentage: 5.91
+2025-04-19 17:39:02,273 - INFO -   population_density: 7.53
+2025-04-19 17:39:02,273 - INFO -   road_density_m_km2: 3.19
+2025-04-19 17:39:02,273 - WARNING - High multicollinearity detected:
+2025-04-19 17:39:02,289 - WARNING -   urban_percentage: VIF = 5.91
+2025-04-19 17:39:02,290 - WARNING -   population_density: VIF = 7.53
+2025-04-19 17:39:02,290 - INFO - 
+Model urban Summary:
+2025-04-19 17:39:02,290 - INFO -   R-squared: 0.3482
+2025-04-19 17:39:02,290 - INFO -   Adjusted R-squared: 0.2758
+2025-04-19 17:39:02,290 - INFO -   F-statistic: 4.8082 (p=0.0083)
+2025-04-19 17:39:02,290 - INFO -   Coefficients:
+2025-04-19 17:39:02,290 - INFO -     urban_percentage: 0.4719 (p=0.2220)
+2025-04-19 17:39:02,290 - INFO -     population_density: 0.4769 (p=0.2730)
+2025-04-19 17:39:02,290 - INFO -     road_density_m_km2: -0.5053 (p=0.0796)
+2025-04-19 17:39:02,540 - INFO - Saved regression coefficients plot
+2025-04-19 17:39:02,825 - INFO - Saved actual vs. predicted plot
+2025-04-19 17:39:03,607 - INFO - Saved residual diagnostics plot

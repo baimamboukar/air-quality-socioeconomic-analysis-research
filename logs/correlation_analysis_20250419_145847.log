@@ -1,0 +1,37 @@
+2025-04-19 14:58:47,054 - INFO - Logging setup. Log file: logs\correlation_analysis_20250419_145847.log
+2025-04-19 14:58:47,062 - INFO - Loaded dataset with 31 districts and 30 variables
+2025-04-19 14:58:47,063 - INFO - Using AQI_mean as AQI variable
+2025-04-19 14:58:47,064 - INFO - Using None as poverty variable
+2025-04-19 14:58:47,065 - INFO - Starting correlation analysis
+2025-04-19 14:58:47,067 - INFO - Calculating pearson correlations for 20 numeric variables
+2025-04-19 14:58:47,069 - INFO - Top correlations with AQI (pearson):
+2025-04-19 14:58:47,071 - INFO -   Aqi Median: 0.9340
+2025-04-19 14:58:47,072 - INFO -   Aqi Max: 0.7271
+2025-04-19 14:58:47,073 - INFO -   Urban Percentage: 0.5157
+2025-04-19 14:58:47,074 - INFO -   Population Density: 0.4888
+2025-04-19 14:58:47,076 - INFO - Calculating spearman correlations for 20 numeric variables
+2025-04-19 14:58:47,079 - INFO - Top correlations with AQI (spearman):
+2025-04-19 14:58:47,081 - INFO -   Aqi Median: 0.9266
+2025-04-19 14:58:47,082 - INFO -   Aqi Max: 0.7612
+2025-04-19 14:58:47,084 - INFO -   Urban Percentage: 0.4002
+2025-04-19 14:58:47,084 - INFO -   Population Density: 0.3067
+2025-04-19 14:58:47,086 - INFO - Creating correlation matrix visualization
+2025-04-19 14:58:48,042 - INFO - Saved correlation matrix visualization
+2025-04-19 14:58:48,408 - INFO - Created scatter plot: AQI vs Road Density
+2025-04-19 14:58:48,761 - INFO - Created scatter plot: AQI vs Population Density
+2025-04-19 14:58:49,392 - INFO - Created scatter plot: AQI vs Major Roads Ratio
+2025-04-19 14:58:49,863 - INFO - Created correlation comparison visualization
+2025-04-19 14:58:49,863 - INFO - Creating composite figure with multiple correlations
+2025-04-19 14:58:51,126 - INFO - Created composite correlation visualization
+2025-04-19 14:58:51,128 - INFO - Analyzing correlations for 3 area types
+2025-04-19 14:58:51,147 - INFO - 
+Key correlation differences by area type:
+2025-04-19 14:58:51,162 - INFO - Road Density:
+2025-04-19 14:58:51,162 - INFO -   rural: r=-0.336, p=0.173, n=18
+2025-04-19 14:58:51,162 - INFO -   peri-urban: r=-0.627, p=0.070, n=9
+2025-04-19 14:58:51,166 - INFO -   urban: r=-0.852, p=0.148, n=4
+2025-04-19 14:58:51,166 - INFO - Population Density:
+2025-04-19 14:58:51,166 - INFO -   rural: r=0.082, p=0.747, n=18
+2025-04-19 14:58:51,166 - INFO -   peri-urban: r=-0.192, p=0.621, n=9
+2025-04-19 14:58:51,166 - INFO -   urban: r=-0.789, p=0.211, n=4
+2025-04-19 14:58:51,166 - INFO - Correlation analysis completed

@@ -1,0 +1,52 @@
+2025-04-19 01:07:17,320 - INFO - Starting population indicators processing
+2025-04-19 01:07:17,325 - INFO - Created datasets directory
+2025-04-19 01:07:17,325 - INFO - Reading population_indicators.csv
+2025-04-19 01:07:17,336 - INFO - Successfully loaded population data with 30 rows
+2025-04-19 01:07:17,336 - INFO - Adding urban_rural_label column based on rural vs urban percentages
+2025-04-19 01:07:17,343 - INFO - Classification complete: 4 urban districts, 26 rural districts
+2025-04-19 01:07:17,369 - INFO - Saved processed population data to datasets/population_indicators_processed.csv
+2025-04-19 01:07:43,678 - INFO - Starting population indicators processing
+2025-04-19 01:07:43,678 - INFO - Reading population_indicators.csv
+2025-04-19 01:07:43,680 - INFO - Successfully loaded population data with 30 rows
+2025-04-19 01:07:43,680 - INFO - Adding urban_rural_label column based on rural vs urban percentages
+2025-04-19 01:07:43,685 - INFO - Classification complete: 4 urban districts, 26 rural districts
+2025-04-19 01:07:43,685 - INFO - Saved processed population data to datasets/population_indicators_processed.csv
+2025-04-19 01:07:55,871 - INFO - Starting population indicators processing
+2025-04-19 01:07:55,871 - INFO - Reading population_indicators.csv
+2025-04-19 01:07:55,881 - INFO - Successfully loaded population data with 30 rows
+2025-04-19 01:07:55,882 - INFO - Adding urban_rural_label column based on rural vs urban percentages
+2025-04-19 01:07:55,883 - INFO - Classification complete: 4 urban districts, 26 rural districts
+2025-04-19 01:07:55,886 - INFO - Saved processed population data to datasets/population_indicators_processed.csv
+2025-04-19 01:08:27,155 - INFO - Starting population indicators processing
+2025-04-19 01:08:27,155 - INFO - Reading population_indicators.csv
+2025-04-19 01:08:27,161 - INFO - Successfully loaded population data with 30 rows
+2025-04-19 01:08:27,162 - INFO - Adding urban_rural_label column based on rural vs urban percentages
+2025-04-19 01:08:27,164 - INFO - Classification complete: 4 urban districts, 26 rural districts
+2025-04-19 01:08:27,165 - INFO - Saved processed population data to datasets/population_indicators_processed.csv
+2025-04-19 01:38:47,071 - INFO - Starting population indicators processing
+2025-04-19 01:38:47,075 - INFO - Reading population_indicators.csv
+2025-04-19 01:38:47,172 - INFO - Successfully loaded population data with 30 rows
+2025-04-19 01:38:47,172 - INFO - Adding urban_rural_label column with three categories: urban, peri-urban, and rural
+2025-04-19 01:38:47,186 - INFO - Classification complete: 4 urban districts, 9 peri-urban districts, 17 rural districts
+2025-04-19 01:38:47,203 - INFO - Saved processed population data to datasets/population_indicators_processed.csv
+2025-04-19 02:01:03,974 - INFO - Starting road network data processing with proximity features
+2025-04-19 02:01:22,394 - INFO - Converting road network CRS to match sectors
+2025-04-19 02:01:23,475 - INFO - Creating projected versions for accurate measurements
+2025-04-19 02:01:24,924 - INFO - Identified 2400 major road segments
+2025-04-19 02:01:24,924 - INFO - Processing sector 1 of 416
+2025-04-19 02:01:43,189 - INFO - Processing sector 51 of 416
+2025-04-19 02:02:08,620 - INFO - Processing sector 101 of 416
+2025-04-19 02:02:39,184 - INFO - Processing sector 151 of 416
+2025-04-19 02:03:08,308 - INFO - Processing sector 201 of 416
+2025-04-19 02:03:39,374 - INFO - Processing sector 251 of 416
+2025-04-19 02:04:01,848 - INFO - Processing sector 301 of 416
+2025-04-19 02:04:22,784 - INFO - Processing sector 351 of 416
+2025-04-19 02:04:44,589 - INFO - Processing sector 401 of 416
+2025-04-19 02:04:52,614 - INFO - Road metrics calculated for 416 sectors
+2025-04-19 02:04:52,619 - INFO - Added urban/rural classification from population data
+2025-04-19 02:04:52,621 - INFO - area_sqkm - Mean: 58.55, Median: 48.37
+2025-04-19 02:04:52,621 - INFO - total_road_length_m - Mean: 225239.39, Median: 207432.07
+2025-04-19 02:04:52,621 - INFO - road_density_m_km2 - Mean: 5086.63, Median: 4348.36
+2025-04-19 02:04:52,622 - INFO - major_roads_ratio - Mean: 0.16, Median: 0.15
+2025-04-19 02:04:52,622 - INFO - road_coverage_index - Mean: 0.93, Median: 0.97
+2025-04-19 02:04:52,637 - INFO - Saved road metrics with proximity features to datasets/road_metrics_with_proximity.csv

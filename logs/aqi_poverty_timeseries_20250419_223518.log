@@ -1,0 +1,891 @@
+2025-04-19 22:35:18,973 - INFO - Logging setup
+2025-04-19 22:35:19,104 - INFO - Loaded AQI dataset with 25376 records
+2025-04-19 22:35:19,104 - INFO - Loaded poverty dataset with 416 sectors
+2025-04-19 22:35:19,104 - INFO - Starting time series trend analysis
+2025-04-19 22:35:19,143 - INFO - Merged dataset contains 30805 records after joining on sector_key
+2025-04-19 22:35:19,143 - INFO - Grouped sectors into poverty categories: Low, Medium, High based on weighted poverty score
+2025-04-19 22:35:19,177 - INFO - Prepared time series data for AQI trends by poverty category
+2025-04-19 22:35:19,188 - INFO - Calculated trend slopes for each poverty category
+2025-04-19 22:35:19,603 - INFO - Saved AQI trends plot
+2025-04-19 22:35:20,000 - INFO - Saved YoY AQI change plot
+2025-04-19 22:35:20,350 - INFO - Saved AQI distribution plot
+2025-04-19 22:35:20,353 - INFO - Time series trend analysis completed
+2025-04-19 23:12:00,502 - INFO - Starting urban-rural comparative analysis...
+2025-04-19 23:12:00,505 - INFO - Loading district and population data...
+2025-04-19 23:12:22,504 - INFO - Starting urban-rural comparative analysis...
+2025-04-19 23:12:22,504 - INFO - Loading district and population data...
+2025-04-19 23:13:07,632 - INFO - Starting urban-rural comparative analysis...
+2025-04-19 23:13:07,634 - INFO - Loading district and population data...
+2025-04-19 23:14:16,078 - INFO - Starting urban-rural comparative analysis...
+2025-04-19 23:14:16,079 - INFO - Loading district and population data...
+2025-04-19 23:15:06,418 - INFO - Starting urban-rural comparative analysis...
+2025-04-19 23:15:06,418 - INFO - Loading district and population data...
+2025-04-19 23:15:48,306 - INFO - Starting urban-rural comparative analysis...
+2025-04-19 23:15:48,308 - INFO - Loading district and population data...
+2025-04-19 23:17:08,556 - INFO - Starting urban-rural comparative analysis...
+2025-04-19 23:17:42,077 - INFO - Starting urban-rural comparative analysis...
+2025-04-19 23:17:42,077 - INFO - Loading district and population data...
+2025-04-19 23:17:42,139 - INFO - Loaded district data with 31 records.
+2025-04-19 23:17:42,145 - INFO - Loaded population data with 30 records.
+2025-04-19 23:17:42,145 - INFO - Preprocessing data...
+2025-04-19 23:17:42,170 - INFO - Merged dataset contains 27 records.
+2025-04-19 23:17:42,170 - ERROR - Missing required columns: population_density, urban_percentage
+2025-04-19 23:19:42,947 - INFO - Starting urban-rural comparative analysis...
+2025-04-19 23:19:42,949 - INFO - Loading district and population data...
+2025-04-19 23:19:42,952 - INFO - Loaded district data with 31 records.
+2025-04-19 23:19:42,952 - INFO - Loaded population data with 30 records.
+2025-04-19 23:19:42,952 - INFO - Preprocessing data...
+2025-04-19 23:19:42,961 - INFO - Merged dataset contains 27 records.
+2025-04-19 23:19:42,965 - ERROR - Missing required columns: population_density, urban_percentage
+2025-04-19 23:20:57,845 - INFO - Starting urban-rural comparative analysis...
+2025-04-19 23:20:57,845 - INFO - Loading district and population data...
+2025-04-19 23:20:57,862 - INFO - Loaded district data with 31 records.
+2025-04-19 23:20:57,863 - INFO - Loaded population data with 30 records.
+2025-04-19 23:20:57,863 - INFO - Preprocessing data...
+2025-04-19 23:20:57,873 - INFO - Merged dataset contains 31 records.
+2025-04-19 23:20:57,875 - ERROR - Missing required columns: population_density, urban_percentage
+2025-04-19 23:21:10,294 - INFO - Starting urban-rural comparative analysis...
+2025-04-19 23:21:10,294 - INFO - Loading district and population data...
+2025-04-19 23:21:10,310 - INFO - Loaded district data with 31 records.
+2025-04-19 23:21:10,310 - INFO - Loaded population data with 30 records.
+2025-04-19 23:21:10,310 - INFO - Preprocessing data...
+2025-04-19 23:21:10,310 - INFO - Merged dataset contains 31 records.
+2025-04-19 23:21:10,320 - ERROR - Missing required columns: population_density, urban_percentage
+2025-04-19 23:31:33,027 - INFO - Starting urban-rural comparative analysis...
+2025-04-19 23:31:33,030 - INFO - Loading district and population data...
+2025-04-19 23:32:36,557 - INFO - Starting urban-rural comparative analysis...
+2025-04-19 23:32:36,558 - INFO - Loading district and population data...
+2025-04-19 23:32:36,566 - INFO - Loaded district data with 31 records.
+2025-04-19 23:32:36,567 - INFO - Loaded population data with 30 records.
+2025-04-19 23:32:36,568 - INFO - Preprocessing data...
+2025-04-19 23:32:36,576 - INFO - Merged dataset contains 27 records.
+2025-04-19 23:32:36,582 - INFO - Merged dataset columns: ['province', 'district', 'area_sqkm', 'total_road_length_m', 'road_density_m_km2', 'road_coverage_index', 'major_roads_ratio', 'major_roads_exposure_index', 'pct_within_1km', 'pct_within_5km', 'pct_within_10km', 'urban_rural_type', 'AQI_mean', 'AQI_median', 'AQI_std', 'AQI_min', 'AQI_max', 'AQI_count', 'AQI_cv', 'avg_yoy_change', 'avg_yoy_pct_change', 'population_density', 'urban_percentage', 'rural_percentage', 'road_density_m_km2_scaled', 'road_coverage_index_scaled', 'major_roads_ratio_scaled', 'major_roads_exposure_index_scaled', 'population_density_scaled', 'AQI_mean_scaled', 'total_population', 'urban_population', 'rural_population', 'male_population', 'female_population', 'population_share_percentage', 'total_percentage', 'urban_rural_label']
+2025-04-19 23:32:36,607 - INFO - 
+Districts by settlement type:
+2025-04-19 23:32:36,609 - INFO - settlement_type
+Rural         17
+Peri-urban     9
+Urban          1
+Name: count, dtype: int64
+2025-04-19 23:32:36,613 - INFO - Analyzing urban-rural patterns...
+2025-04-19 23:32:36,614 - INFO - Analyzing urban-rural patterns...
+2025-04-19 23:32:36,615 - INFO - Comparing AQI distributions...
+2025-04-19 23:32:37,027 - INFO - Comparing pollutant levels...
+2025-04-19 23:32:37,279 - INFO - Analyzing poverty-AQI relationship by settlement type...
+2025-04-19 23:32:37,279 - WARNING - Skipping poverty-AQI analysis: 'poverty_index' column not found in dataset.
+2025-04-19 23:32:37,279 - INFO - Running interaction regression analysis...
+2025-04-19 23:32:37,295 - INFO - 
+Interaction Regression Results:
+2025-04-19 23:32:37,295 - INFO -                             OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    aqi   R-squared:                       0.305
+Model:                            OLS   Adj. R-squared:                  0.214
+Method:                 Least Squares   F-statistic:                     3.358
+Date:                Sat, 19 Apr 2025   Prob (F-statistic):             0.0363
+Time:                        23:32:37   Log-Likelihood:                -55.080
+No. Observations:                  27   AIC:                             118.2
+Df Residuals:                      23   BIC:                             123.3
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+const                   63.7725      2.213     28.815      0.000      59.194      68.351
+population_density      -0.0058      0.004     -1.412      0.171      -0.014       0.003
+settlement_numeric      -4.2124      2.110     -1.996      0.058      -8.577       0.153
+density_x_settlement     0.0076      0.003      2.517      0.019       0.001       0.014
+==============================================================================
+Omnibus:                        3.892   Durbin-Watson:                   1.182
+Prob(Omnibus):                  0.143   Jarque-Bera (JB):                1.529
+Skew:                           0.079   Prob(JB):                        0.466
+Kurtosis:                       1.845   Cond. No.                     5.80e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 5.8e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+2025-04-19 23:32:37,755 - INFO - Analyzing road infrastructure effects...
+2025-04-19 23:32:38,217 - INFO - Analyzing multiple road variables...
+2025-04-19 23:32:39,826 - INFO - Analyzing population density effects...
+2025-04-19 23:32:40,308 - INFO - Creating comparative summary...
+2025-04-19 23:32:40,308 - INFO - Creating comparative summary...
+2025-04-19 23:32:40,958 - INFO - Creating correlation heatmaps...
+2025-04-19 23:32:41,773 - INFO - Running multivariate regression models by settlement type...
+2025-04-19 23:32:41,773 - INFO - Running multivariate regression models by settlement type...
+2025-04-19 23:32:41,773 - INFO - 
+Regression model for Rural areas:
+2025-04-19 23:32:41,836 - INFO -                             OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    aqi   R-squared:                       0.447
+Model:                            OLS   Adj. R-squared:                  0.195
+Method:                 Least Squares   F-statistic:                     1.777
+Date:                Sat, 19 Apr 2025   Prob (F-statistic):              0.198
+Time:                        23:32:41   Log-Likelihood:                -30.612
+No. Observations:                  17   AIC:                             73.22
+Df Residuals:                      11   BIC:                             78.22
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                  54.8824     12.228      4.488      0.001      27.969      81.796
+population_density      0.0181      0.009      1.957      0.076      -0.002       0.038
+total_road_length_m  1.984e-06   1.77e-06      1.121      0.286   -1.91e-06    5.88e-06
+road_density_m_km2     -0.0017      0.001     -1.162      0.270      -0.005       0.001
+road_coverage_index     0.0773     10.439      0.007      0.994     -22.898      23.053
+major_roads_ratio     -33.1589     19.314     -1.717      0.114     -75.669       9.351
+==============================================================================
+Omnibus:                        4.873   Durbin-Watson:                   1.290
+Prob(Omnibus):                  0.087   Jarque-Bera (JB):                2.391
+Skew:                          -0.779   Prob(JB):                        0.302
+Kurtosis:                       3.975   Cond. No.                     1.19e+08
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.19e+08. This might indicate that there are
+strong multicollinearity or other numerical problems.
+2025-04-19 23:32:41,847 - INFO - 
+Regression model for Peri-urban areas:
+2025-04-19 23:32:41,852 - INFO -                             OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    aqi   R-squared:                       0.670
+Model:                            OLS   Adj. R-squared:                  0.121
+Method:                 Least Squares   F-statistic:                     1.220
+Date:                Sat, 19 Apr 2025   Prob (F-statistic):              0.464
+Time:                        23:32:41   Log-Likelihood:                -10.399
+No. Observations:                   9   AIC:                             32.80
+Df Residuals:                       3   BIC:                             33.98
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                  59.0552     10.370      5.695      0.011      26.053      92.057
+population_density      0.0029      0.003      0.835      0.465      -0.008       0.014
+total_road_length_m  3.844e-07   8.51e-07      0.452      0.682   -2.32e-06    3.09e-06
+road_density_m_km2     -0.0013      0.001     -1.283      0.290      -0.005       0.002
+road_coverage_index     6.1995      6.184      1.003      0.390     -13.480      25.879
+major_roads_ratio     -26.1995     24.052     -1.089      0.356    -102.743      50.344
+==============================================================================
+Omnibus:                        0.908   Durbin-Watson:                   2.792
+Prob(Omnibus):                  0.635   Jarque-Bera (JB):                0.712
+Skew:                           0.539   Prob(JB):                        0.701
+Kurtosis:                       2.143   Cond. No.                     1.77e+08
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.77e+08. This might indicate that there are
+strong multicollinearity or other numerical problems.
+2025-04-19 23:32:41,857 - INFO - 
+Regression results by settlement type:
+2025-04-19 23:32:41,857 - INFO -   Settlement Type  Sample Size          R-squared     Adj. R-squared  \
+0           Rural           17              0.447              0.195   
+1      Peri-urban            9              0.670              0.121   
+2           Urban            1  Insufficient data  Insufficient data   
+
+         F-statistic            P-value Significant at p<0.05  
+0              1.777             0.1981                    No  
+1              1.220             0.4638                    No  
+2  Insufficient data  Insufficient data                    No  
+2025-04-19 23:32:41,857 - INFO - 
+Coefficient results by settlement type:
+2025-04-19 23:32:41,868 - INFO -   Settlement Type population_density total_road_length_m road_density_m_km2  \
+0           Rural    0.018 (p=0.076)     0.000 (p=0.286)   -0.002 (p=0.270)   
+1      Peri-urban    0.003 (p=0.465)     0.000 (p=0.682)   -0.001 (p=0.290)   
+2           Urban  Insufficient data   Insufficient data  Insufficient data   
+
+  road_coverage_index  major_roads_ratio  
+0     0.077 (p=0.994)  -33.159 (p=0.114)  
+1     6.200 (p=0.390)  -26.199 (p=0.356)  
+2   Insufficient data  Insufficient data  
+2025-04-19 23:32:41,868 - INFO - Plotting regression coefficients...
+2025-04-19 23:32:42,399 - INFO - Analysis complete. Results saved to the figures directory.
+2025-04-19 23:37:54,845 - INFO - Starting urban-rural comparative analysis...
+2025-04-19 23:37:54,846 - INFO - Loading district and population data...
+2025-04-19 23:37:54,856 - INFO - Loaded district data with 31 records.
+2025-04-19 23:37:54,857 - INFO - Loaded population data with 30 records.
+2025-04-19 23:37:54,858 - INFO - Preprocessing data...
+2025-04-19 23:37:54,869 - INFO - Merged dataset contains 27 records.
+2025-04-19 23:37:54,871 - INFO - Merged dataset columns: ['province', 'district', 'area_sqkm', 'total_road_length_m', 'road_density_m_km2', 'road_coverage_index', 'major_roads_ratio', 'major_roads_exposure_index', 'pct_within_1km', 'pct_within_5km', 'pct_within_10km', 'urban_rural_type', 'AQI_mean', 'AQI_median', 'AQI_std', 'AQI_min', 'AQI_max', 'AQI_count', 'AQI_cv', 'avg_yoy_change', 'avg_yoy_pct_change', 'population_density', 'urban_percentage', 'rural_percentage', 'road_density_m_km2_scaled', 'road_coverage_index_scaled', 'major_roads_ratio_scaled', 'major_roads_exposure_index_scaled', 'population_density_scaled', 'AQI_mean_scaled', 'total_population', 'urban_population', 'rural_population', 'male_population', 'female_population', 'population_share_percentage', 'total_percentage', 'urban_rural_label']
+2025-04-19 23:37:54,873 - INFO - 
+Districts by settlement type:
+2025-04-19 23:37:54,882 - INFO - settlement_type
+Rural         17
+Peri-urban     9
+Urban          1
+Name: count, dtype: int64
+2025-04-19 23:37:54,885 - INFO - Analyzing urban-rural patterns...
+2025-04-19 23:37:54,886 - INFO - Analyzing urban-rural patterns...
+2025-04-19 23:37:54,888 - INFO - Comparing AQI distributions...
+2025-04-19 23:37:55,249 - INFO - Comparing pollutant levels...
+2025-04-19 23:37:55,515 - INFO - Analyzing poverty-AQI relationship by settlement type...
+2025-04-19 23:37:55,515 - WARNING - Skipping poverty-AQI analysis: 'poverty_index' column not found in dataset.
+2025-04-19 23:37:55,515 - INFO - Running interaction regression analysis...
+2025-04-19 23:37:55,515 - INFO - 
+Interaction Regression Results:
+2025-04-19 23:37:55,515 - INFO -                             OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    aqi   R-squared:                       0.305
+Model:                            OLS   Adj. R-squared:                  0.214
+Method:                 Least Squares   F-statistic:                     3.358
+Date:                Sat, 19 Apr 2025   Prob (F-statistic):             0.0363
+Time:                        23:37:55   Log-Likelihood:                -55.080
+No. Observations:                  27   AIC:                             118.2
+Df Residuals:                      23   BIC:                             123.3
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+const                   63.7725      2.213     28.815      0.000      59.194      68.351
+population_density      -0.0058      0.004     -1.412      0.171      -0.014       0.003
+settlement_numeric      -4.2124      2.110     -1.996      0.058      -8.577       0.153
+density_x_settlement     0.0076      0.003      2.517      0.019       0.001       0.014
+==============================================================================
+Omnibus:                        3.892   Durbin-Watson:                   1.182
+Prob(Omnibus):                  0.143   Jarque-Bera (JB):                1.529
+Skew:                           0.079   Prob(JB):                        0.466
+Kurtosis:                       1.845   Cond. No.                     5.80e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 5.8e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+2025-04-19 23:37:55,998 - INFO - Analyzing road infrastructure effects...
+2025-04-19 23:37:56,448 - INFO - Analyzing multiple road variables...
+2025-04-19 23:37:57,980 - INFO - Analyzing population density effects...
+2025-04-19 23:38:54,065 - INFO - Starting urban-rural comparative analysis...
+2025-04-19 23:38:54,067 - INFO - Loading district and population data...
+2025-04-19 23:38:54,076 - INFO - Loaded district data with 31 records.
+2025-04-19 23:38:54,078 - INFO - Loaded population data with 30 records.
+2025-04-19 23:38:54,078 - INFO - Preprocessing data...
+2025-04-19 23:38:54,078 - INFO - Merged dataset contains 27 records.
+2025-04-19 23:38:54,078 - INFO - Merged dataset columns: ['province', 'district', 'area_sqkm', 'total_road_length_m', 'road_density_m_km2', 'road_coverage_index', 'major_roads_ratio', 'major_roads_exposure_index', 'pct_within_1km', 'pct_within_5km', 'pct_within_10km', 'urban_rural_type', 'AQI_mean', 'AQI_median', 'AQI_std', 'AQI_min', 'AQI_max', 'AQI_count', 'AQI_cv', 'avg_yoy_change', 'avg_yoy_pct_change', 'population_density', 'urban_percentage', 'rural_percentage', 'road_density_m_km2_scaled', 'road_coverage_index_scaled', 'major_roads_ratio_scaled', 'major_roads_exposure_index_scaled', 'population_density_scaled', 'AQI_mean_scaled', 'total_population', 'urban_population', 'rural_population', 'male_population', 'female_population', 'population_share_percentage', 'total_percentage', 'urban_rural_label']
+2025-04-19 23:38:54,078 - INFO - 
+Districts by settlement type:
+2025-04-19 23:38:54,078 - INFO - settlement_type
+Rural         17
+Peri-urban     9
+Urban          1
+Name: count, dtype: int64
+2025-04-19 23:38:54,078 - INFO - Analyzing urban-rural patterns...
+2025-04-19 23:38:54,094 - INFO - Analyzing urban-rural patterns...
+2025-04-19 23:38:54,095 - INFO - Comparing AQI distributions...
+2025-04-19 23:38:54,495 - INFO - Comparing pollutant levels...
+2025-04-19 23:38:54,744 - INFO - Analyzing poverty-AQI relationship by settlement type...
+2025-04-19 23:38:54,760 - WARNING - Skipping poverty-AQI analysis: 'poverty_index' column not found in dataset.
+2025-04-19 23:38:54,760 - INFO - Running interaction regression analysis...
+2025-04-19 23:38:54,764 - INFO - 
+Interaction Regression Results:
+2025-04-19 23:38:54,764 - INFO -                             OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    aqi   R-squared:                       0.305
+Model:                            OLS   Adj. R-squared:                  0.214
+Method:                 Least Squares   F-statistic:                     3.358
+Date:                Sat, 19 Apr 2025   Prob (F-statistic):             0.0363
+Time:                        23:38:54   Log-Likelihood:                -55.080
+No. Observations:                  27   AIC:                             118.2
+Df Residuals:                      23   BIC:                             123.3
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+const                   63.7725      2.213     28.815      0.000      59.194      68.351
+population_density      -0.0058      0.004     -1.412      0.171      -0.014       0.003
+settlement_numeric      -4.2124      2.110     -1.996      0.058      -8.577       0.153
+density_x_settlement     0.0076      0.003      2.517      0.019       0.001       0.014
+==============================================================================
+Omnibus:                        3.892   Durbin-Watson:                   1.182
+Prob(Omnibus):                  0.143   Jarque-Bera (JB):                1.529
+Skew:                           0.079   Prob(JB):                        0.466
+Kurtosis:                       1.845   Cond. No.                     5.80e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 5.8e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+2025-04-19 23:38:55,275 - INFO - Analyzing road infrastructure effects...
+2025-04-19 23:38:55,868 - INFO - Analyzing multiple road variables...
+2025-04-19 23:38:58,246 - INFO - Analyzing population density effects...
+2025-04-19 23:38:58,884 - INFO - Creating comparative summary...
+2025-04-19 23:38:58,884 - INFO - Creating comparative summary...
+2025-04-19 23:38:59,663 - INFO - Creating correlation heatmaps...
+2025-04-19 23:39:00,558 - INFO - Running multivariate regression models by settlement type...
+2025-04-19 23:39:00,560 - INFO - Running multivariate regression models by settlement type...
+2025-04-19 23:39:00,563 - INFO - 
+Regression model for Rural areas:
+2025-04-19 23:39:00,563 - INFO -                             OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    aqi   R-squared:                       0.447
+Model:                            OLS   Adj. R-squared:                  0.195
+Method:                 Least Squares   F-statistic:                     1.777
+Date:                Sat, 19 Apr 2025   Prob (F-statistic):              0.198
+Time:                        23:39:00   Log-Likelihood:                -30.612
+No. Observations:                  17   AIC:                             73.22
+Df Residuals:                      11   BIC:                             78.22
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                  54.8824     12.228      4.488      0.001      27.969      81.796
+population_density      0.0181      0.009      1.957      0.076      -0.002       0.038
+total_road_length_m  1.984e-06   1.77e-06      1.121      0.286   -1.91e-06    5.88e-06
+road_density_m_km2     -0.0017      0.001     -1.162      0.270      -0.005       0.001
+road_coverage_index     0.0773     10.439      0.007      0.994     -22.898      23.053
+major_roads_ratio     -33.1589     19.314     -1.717      0.114     -75.669       9.351
+==============================================================================
+Omnibus:                        4.873   Durbin-Watson:                   1.290
+Prob(Omnibus):                  0.087   Jarque-Bera (JB):                2.391
+Skew:                          -0.779   Prob(JB):                        0.302
+Kurtosis:                       3.975   Cond. No.                     1.19e+08
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.19e+08. This might indicate that there are
+strong multicollinearity or other numerical problems.
+2025-04-19 23:39:00,580 - INFO - 
+Regression model for Peri-urban areas:
+2025-04-19 23:39:00,580 - INFO -                             OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    aqi   R-squared:                       0.670
+Model:                            OLS   Adj. R-squared:                  0.121
+Method:                 Least Squares   F-statistic:                     1.220
+Date:                Sat, 19 Apr 2025   Prob (F-statistic):              0.464
+Time:                        23:39:00   Log-Likelihood:                -10.399
+No. Observations:                   9   AIC:                             32.80
+Df Residuals:                       3   BIC:                             33.98
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                  59.0552     10.370      5.695      0.011      26.053      92.057
+population_density      0.0029      0.003      0.835      0.465      -0.008       0.014
+total_road_length_m  3.844e-07   8.51e-07      0.452      0.682   -2.32e-06    3.09e-06
+road_density_m_km2     -0.0013      0.001     -1.283      0.290      -0.005       0.002
+road_coverage_index     6.1995      6.184      1.003      0.390     -13.480      25.879
+major_roads_ratio     -26.1995     24.052     -1.089      0.356    -102.743      50.344
+==============================================================================
+Omnibus:                        0.908   Durbin-Watson:                   2.792
+Prob(Omnibus):                  0.635   Jarque-Bera (JB):                0.712
+Skew:                           0.539   Prob(JB):                        0.701
+Kurtosis:                       2.143   Cond. No.                     1.77e+08
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.77e+08. This might indicate that there are
+strong multicollinearity or other numerical problems.
+2025-04-19 23:39:00,596 - INFO - 
+Regression results by settlement type:
+2025-04-19 23:39:00,596 - INFO -   Settlement Type  Sample Size          R-squared     Adj. R-squared  \
+0           Rural           17              0.447              0.195   
+1      Peri-urban            9              0.670              0.121   
+2           Urban            1  Insufficient data  Insufficient data   
+
+         F-statistic            P-value Significant at p<0.05  
+0              1.777             0.1981                    No  
+1              1.220             0.4638                    No  
+2  Insufficient data  Insufficient data                    No  
+2025-04-19 23:39:00,596 - INFO - 
+Coefficient results by settlement type:
+2025-04-19 23:39:00,596 - INFO -   Settlement Type population_density total_road_length_m road_density_m_km2  \
+0           Rural    0.018 (p=0.076)     0.000 (p=0.286)   -0.002 (p=0.270)   
+1      Peri-urban    0.003 (p=0.465)     0.000 (p=0.682)   -0.001 (p=0.290)   
+2           Urban  Insufficient data   Insufficient data  Insufficient data   
+
+  road_coverage_index  major_roads_ratio  
+0     0.077 (p=0.994)  -33.159 (p=0.114)  
+1     6.200 (p=0.390)  -26.199 (p=0.356)  
+2   Insufficient data  Insufficient data  
+2025-04-19 23:39:00,612 - INFO - Plotting regression coefficients...
+2025-04-19 23:39:01,179 - INFO - Analysis complete. Results saved to the figures directory.
+2025-04-19 23:51:51,606 - INFO - Starting urban-rural comparative analysis...
+2025-04-19 23:51:51,606 - INFO - Loading district and population data...
+2025-04-19 23:51:51,635 - INFO - Loaded district data with 31 records.
+2025-04-19 23:51:51,635 - INFO - Loaded population data with 30 records.
+2025-04-19 23:51:51,635 - INFO - Preprocessing data...
+2025-04-19 23:51:51,651 - INFO - Merged dataset contains 27 records.
+2025-04-19 23:51:51,653 - INFO - Merged dataset columns: ['province', 'district', 'area_sqkm', 'total_road_length_m', 'road_density_m_km2', 'road_coverage_index', 'major_roads_ratio', 'major_roads_exposure_index', 'pct_within_1km', 'pct_within_5km', 'pct_within_10km', 'urban_rural_type', 'AQI_mean', 'AQI_median', 'AQI_std', 'AQI_min', 'AQI_max', 'AQI_count', 'AQI_cv', 'avg_yoy_change', 'avg_yoy_pct_change', 'population_density', 'urban_percentage', 'rural_percentage', 'road_density_m_km2_scaled', 'road_coverage_index_scaled', 'major_roads_ratio_scaled', 'major_roads_exposure_index_scaled', 'population_density_scaled', 'AQI_mean_scaled', 'total_population', 'urban_population', 'rural_population', 'male_population', 'female_population', 'population_share_percentage', 'total_percentage', 'urban_rural_label']
+2025-04-19 23:51:51,657 - INFO - 
+Districts by settlement type:
+2025-04-19 23:51:51,657 - INFO - settlement_type
+Rural         17
+Peri-urban     9
+Urban          1
+Name: count, dtype: int64
+2025-04-19 23:51:51,657 - INFO - Analyzing urban-rural patterns...
+2025-04-19 23:51:51,657 - INFO - Analyzing urban-rural patterns...
+2025-04-19 23:51:51,667 - INFO - Comparing AQI distributions...
+2025-04-19 23:51:52,085 - INFO - Comparing pollutant levels...
+2025-04-19 23:51:52,335 - INFO - Analyzing poverty-AQI relationship by settlement type...
+2025-04-19 23:51:52,335 - WARNING - Skipping poverty-AQI analysis: 'poverty_index' column not found in dataset.
+2025-04-19 23:51:52,335 - INFO - Running interaction regression analysis...
+2025-04-19 23:51:52,351 - INFO - 
+Interaction Regression Results:
+2025-04-19 23:51:52,351 - INFO -                             OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    aqi   R-squared:                       0.305
+Model:                            OLS   Adj. R-squared:                  0.214
+Method:                 Least Squares   F-statistic:                     3.358
+Date:                Sat, 19 Apr 2025   Prob (F-statistic):             0.0363
+Time:                        23:51:52   Log-Likelihood:                -55.080
+No. Observations:                  27   AIC:                             118.2
+Df Residuals:                      23   BIC:                             123.3
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+const                   63.7725      2.213     28.815      0.000      59.194      68.351
+population_density      -0.0058      0.004     -1.412      0.171      -0.014       0.003
+settlement_numeric      -4.2124      2.110     -1.996      0.058      -8.577       0.153
+density_x_settlement     0.0076      0.003      2.517      0.019       0.001       0.014
+==============================================================================
+Omnibus:                        3.892   Durbin-Watson:                   1.182
+Prob(Omnibus):                  0.143   Jarque-Bera (JB):                1.529
+Skew:                           0.079   Prob(JB):                        0.466
+Kurtosis:                       1.845   Cond. No.                     5.80e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 5.8e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+2025-04-19 23:51:52,817 - INFO - Analyzing road infrastructure effects...
+2025-04-19 23:51:53,299 - INFO - Analyzing multiple road variables...
+2025-04-19 23:51:54,932 - INFO - Analyzing population density effects...
+2025-04-19 23:51:55,366 - INFO - Creating comparative summary...
+2025-04-19 23:51:55,366 - INFO - Creating comparative summary...
+2025-04-19 23:51:55,965 - INFO - Creating correlation heatmaps...
+2025-04-19 23:51:56,765 - INFO - Running multivariate regression models by settlement type...
+2025-04-19 23:51:56,765 - INFO - Running multivariate regression models by settlement type with specified predictors...
+2025-04-19 23:51:56,765 - INFO - 
+Regression model for Rural areas:
+2025-04-19 23:51:56,781 - INFO -                             OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    aqi   R-squared:                       0.266
+Model:                            OLS   Adj. R-squared:                  0.021
+Method:                 Least Squares   F-statistic:                     1.086
+Date:                Sat, 19 Apr 2025   Prob (F-statistic):              0.407
+Time:                        23:51:56   Log-Likelihood:                -33.020
+No. Observations:                  17   AIC:                             76.04
+Df Residuals:                      12   BIC:                             80.21
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+const                  0.0122      0.002      7.308      0.000       0.009       0.016
+road_density_m_km2    -0.0010      0.001     -1.478      0.165      -0.003       0.000
+population_density     0.0053      0.006      0.858      0.408      -0.008       0.019
+urban_percentage       0.6587      0.161      4.097      0.001       0.308       1.009
+rural_percentage       0.5626      0.052     10.806      0.000       0.449       0.676
+avg_yoy_change         0.6885      0.634      1.087      0.298      -0.692       2.069
+==============================================================================
+Omnibus:                        0.197   Durbin-Watson:                   1.770
+Prob(Omnibus):                  0.906   Jarque-Bera (JB):                0.338
+Skew:                          -0.203   Prob(JB):                        0.844
+Kurtosis:                       2.441   Cond. No.                     2.54e+19
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 2.9e-31. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
+2025-04-19 23:51:56,781 - INFO - 
+Regression model for Peri-urban areas:
+2025-04-19 23:51:56,798 - INFO -                             OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    aqi   R-squared:                       0.675
+Model:                            OLS   Adj. R-squared:                  0.351
+Method:                 Least Squares   F-statistic:                     2.080
+Date:                Sat, 19 Apr 2025   Prob (F-statistic):              0.248
+Time:                        23:51:56   Log-Likelihood:                -10.330
+No. Observations:                   9   AIC:                             30.66
+Df Residuals:                       4   BIC:                             31.65
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+const                  0.0114      0.001      9.932      0.001       0.008       0.015
+road_density_m_km2    -0.0021      0.001     -1.878      0.134      -0.005       0.001
+population_density     0.0038      0.004      0.986      0.380      -0.007       0.014
+urban_percentage       0.5333      0.089      5.962      0.004       0.285       0.782
+rural_percentage       0.6058      0.052     11.725      0.000       0.462       0.749
+avg_yoy_change         1.1705      0.634      1.847      0.138      -0.589       2.930
+==============================================================================
+Omnibus:                        3.810   Durbin-Watson:                   2.453
+Prob(Omnibus):                  0.149   Jarque-Bera (JB):                1.603
+Skew:                           1.033   Prob(JB):                        0.449
+Kurtosis:                       2.943   Cond. No.                     2.99e+19
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 1.5e-31. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
+2025-04-19 23:51:56,798 - INFO - 
+Regression results by settlement type:
+2025-04-19 23:51:56,798 - INFO -   Settlement Type  Sample Size          R-squared     Adj. R-squared  \
+0           Rural           17              0.266              0.021   
+1      Peri-urban            9              0.675              0.351   
+2           Urban            1  Insufficient data  Insufficient data   
+
+         F-statistic            P-value Significant at p<0.05  
+0              1.086             0.4067                    No  
+1              2.080             0.2478                    No  
+2  Insufficient data  Insufficient data                    No  
+2025-04-19 23:51:56,817 - INFO - 
+Coefficient results by settlement type:
+2025-04-19 23:51:56,817 - INFO -   Settlement Type road_density_m_km2 population_density   urban_percentage  \
+0           Rural   -0.001 (p=0.165)    0.005 (p=0.408)    0.659 (p=0.001)   
+1      Peri-urban   -0.002 (p=0.134)    0.004 (p=0.380)    0.533 (p=0.004)   
+2           Urban  Insufficient data  Insufficient data  Insufficient data   
+
+    rural_percentage     avg_yoy_change  
+0    0.563 (p=0.000)    0.689 (p=0.298)  
+1    0.606 (p=0.000)    1.171 (p=0.138)  
+2  Insufficient data  Insufficient data  
+2025-04-19 23:51:56,817 - INFO - Plotting regression coefficients...
+2025-04-19 23:51:57,231 - INFO - Analysis complete. Results saved to the figures directory.
+2025-04-19 23:54:48,855 - INFO - Starting urban-rural comparative analysis...
+2025-04-19 23:54:48,855 - INFO - Loading district and population data...
+2025-04-19 23:54:48,872 - INFO - Loaded district data with 31 records.
+2025-04-19 23:54:48,873 - INFO - Loaded population data with 30 records.
+2025-04-19 23:54:48,874 - INFO - Preprocessing data...
+2025-04-19 23:54:48,875 - INFO - Merged dataset contains 27 records.
+2025-04-19 23:54:48,875 - INFO - Merged dataset columns: ['province', 'district', 'area_sqkm', 'total_road_length_m', 'road_density_m_km2', 'road_coverage_index', 'major_roads_ratio', 'major_roads_exposure_index', 'pct_within_1km', 'pct_within_5km', 'pct_within_10km', 'urban_rural_type', 'AQI_mean', 'AQI_median', 'AQI_std', 'AQI_min', 'AQI_max', 'AQI_count', 'AQI_cv', 'avg_yoy_change', 'avg_yoy_pct_change', 'population_density', 'urban_percentage', 'rural_percentage', 'road_density_m_km2_scaled', 'road_coverage_index_scaled', 'major_roads_ratio_scaled', 'major_roads_exposure_index_scaled', 'population_density_scaled', 'AQI_mean_scaled', 'total_population', 'urban_population', 'rural_population', 'male_population', 'female_population', 'population_share_percentage', 'total_percentage', 'urban_rural_label']
+2025-04-19 23:54:48,875 - INFO - 
+Districts by settlement type:
+2025-04-19 23:54:48,875 - INFO - settlement_type
+Rural         17
+Peri-urban     9
+Urban          1
+Name: count, dtype: int64
+2025-04-19 23:54:48,890 - INFO - Analyzing urban-rural patterns...
+2025-04-19 23:54:48,890 - INFO - Analyzing urban-rural patterns...
+2025-04-19 23:54:48,890 - INFO - Comparing AQI distributions...
+2025-04-19 23:54:49,238 - INFO - Comparing pollutant levels...
+2025-04-19 23:54:49,505 - INFO - Analyzing poverty-AQI relationship by settlement type...
+2025-04-19 23:54:49,505 - WARNING - Skipping poverty-AQI analysis: 'poverty_index' column not found in dataset.
+2025-04-19 23:54:49,505 - INFO - Running interaction regression analysis...
+2025-04-19 23:54:49,505 - INFO - 
+Interaction Regression Results:
+2025-04-19 23:54:49,505 - INFO -                             OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    aqi   R-squared:                       0.305
+Model:                            OLS   Adj. R-squared:                  0.214
+Method:                 Least Squares   F-statistic:                     3.358
+Date:                Sat, 19 Apr 2025   Prob (F-statistic):             0.0363
+Time:                        23:54:49   Log-Likelihood:                -55.080
+No. Observations:                  27   AIC:                             118.2
+Df Residuals:                      23   BIC:                             123.3
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+const                   63.7725      2.213     28.815      0.000      59.194      68.351
+population_density      -0.0058      0.004     -1.412      0.171      -0.014       0.003
+settlement_numeric      -4.2124      2.110     -1.996      0.058      -8.577       0.153
+density_x_settlement     0.0076      0.003      2.517      0.019       0.001       0.014
+==============================================================================
+Omnibus:                        3.892   Durbin-Watson:                   1.182
+Prob(Omnibus):                  0.143   Jarque-Bera (JB):                1.529
+Skew:                           0.079   Prob(JB):                        0.466
+Kurtosis:                       1.845   Cond. No.                     5.80e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 5.8e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+2025-04-19 23:54:50,005 - INFO - Analyzing road infrastructure effects...
+2025-04-19 23:54:50,536 - INFO - Analyzing multiple road variables...
+2025-04-19 23:54:52,342 - INFO - Analyzing population density effects...
+2025-04-19 23:54:52,989 - INFO - Creating comparative summary...
+2025-04-19 23:54:52,989 - INFO - Creating comparative summary...
+2025-04-19 23:54:54,418 - INFO - Creating correlation heatmaps...
+2025-04-19 23:54:55,270 - INFO - Running multivariate regression models by settlement type...
+2025-04-19 23:54:55,270 - INFO - Running multivariate regression models by settlement type with PCA...
+2025-04-19 23:54:55,270 - INFO - Variables for PCA: ['area_sqkm', 'total_road_length_m', 'road_density_m_km2', 'road_coverage_index', 'major_roads_ratio', 'major_roads_exposure_index', 'pct_within_1km', 'pct_within_5km', 'pct_within_10km', 'avg_yoy_change', 'avg_yoy_pct_change', 'population_density', 'urban_percentage', 'rural_percentage', 'road_density_m_km2_scaled', 'road_coverage_index_scaled', 'major_roads_ratio_scaled', 'major_roads_exposure_index_scaled', 'population_density_scaled', 'total_population', 'urban_population', 'rural_population', 'male_population', 'female_population', 'population_share_percentage', 'total_percentage', 'density_x_settlement']
+2025-04-19 23:54:55,307 - INFO - Number of PCA components explaining 90% variance: 5
+2025-04-19 23:54:55,316 - INFO - 
+Regression model for Rural areas:
+2025-04-19 23:54:55,318 - INFO -                             OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    aqi   R-squared:                       0.623
+Model:                            OLS   Adj. R-squared:                  0.451
+Method:                 Least Squares   F-statistic:                     3.634
+Date:                Sat, 19 Apr 2025   Prob (F-statistic):             0.0347
+Time:                        23:54:55   Log-Likelihood:                -27.356
+No. Observations:                  17   AIC:                             66.71
+Df Residuals:                      11   BIC:                             71.71
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         65.3752      1.566     41.749      0.000      61.929      68.822
+PC1            0.0496      0.180      0.275      0.789      -0.347       0.446
+PC2            2.7039      0.893      3.028      0.011       0.739       4.669
+PC3           -0.0527      0.223     -0.236      0.817      -0.543       0.438
+PC4           -0.9228      0.394     -2.343      0.039      -1.790      -0.056
+PC5           -0.1425      0.359     -0.397      0.699      -0.933       0.648
+==============================================================================
+Omnibus:                        0.379   Durbin-Watson:                   1.992
+Prob(Omnibus):                  0.828   Jarque-Bera (JB):                0.498
+Skew:                          -0.039   Prob(JB):                        0.780
+Kurtosis:                       2.165   Cond. No.                         15.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+2025-04-19 23:54:55,318 - INFO - 
+Regression model for Peri-urban areas:
+2025-04-19 23:54:55,336 - INFO -                             OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    aqi   R-squared:                       0.689
+Model:                            OLS   Adj. R-squared:                  0.172
+Method:                 Least Squares   F-statistic:                     1.332
+Date:                Sat, 19 Apr 2025   Prob (F-statistic):              0.433
+Time:                        23:54:55   Log-Likelihood:                -10.129
+No. Observations:                   9   AIC:                             32.26
+Df Residuals:                       3   BIC:                             33.44
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         61.1797      1.155     52.957      0.000      57.503      64.856
+PC1           -0.3716      0.227     -1.637      0.200      -1.094       0.351
+PC2           -0.1973      0.370     -0.533      0.631      -1.375       0.980
+PC3           -0.0687      0.379     -0.181      0.868      -1.273       1.136
+PC4           -0.0892      0.379     -0.235      0.829      -1.297       1.118
+PC5           -0.9573      0.677     -1.415      0.252      -3.110       1.196
+==============================================================================
+Omnibus:                        0.535   Durbin-Watson:                   2.409
+Prob(Omnibus):                  0.765   Jarque-Bera (JB):                0.530
+Skew:                           0.393   Prob(JB):                        0.767
+Kurtosis:                       2.108   Cond. No.                         11.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+2025-04-19 23:54:55,343 - INFO - 
+Regression results by settlement type:
+2025-04-19 23:54:55,343 - INFO -   Settlement Type  Sample Size          R-squared     Adj. R-squared  \
+0           Rural           17              0.623              0.451   
+1      Peri-urban            9              0.689              0.172   
+2           Urban            1  Insufficient data  Insufficient data   
+
+         F-statistic            P-value Significant at p<0.05  
+0              3.634             0.0347                   Yes  
+1              1.332             0.4328                    No  
+2  Insufficient data  Insufficient data                    No  
+2025-04-19 23:54:55,352 - INFO - 
+Coefficient results by settlement type:
+2025-04-19 23:54:55,354 - INFO -   Settlement Type                PC1                PC2                PC3  \
+0           Rural    0.050 (p=0.789)    2.704 (p=0.011)   -0.053 (p=0.817)   
+1      Peri-urban   -0.372 (p=0.200)   -0.197 (p=0.631)   -0.069 (p=0.868)   
+2           Urban  Insufficient data  Insufficient data  Insufficient data   
+
+                 PC4                PC5  
+0   -0.923 (p=0.039)   -0.142 (p=0.699)  
+1   -0.089 (p=0.829)   -0.957 (p=0.252)  
+2  Insufficient data  Insufficient data  
+2025-04-19 23:54:55,359 - INFO - Plotting regression coefficients...
+2025-04-19 23:54:56,011 - INFO - Analysis complete. Results saved to the figures directory.
+2025-04-20 00:09:26,841 - INFO - Starting urban-rural comparative analysis...
+2025-04-20 00:09:26,843 - INFO - Loading district and population data...
+2025-04-20 00:10:08,170 - INFO - Starting urban-rural comparative analysis...
+2025-04-20 00:10:08,171 - INFO - Loading district and population data...
+2025-04-20 00:10:08,183 - INFO - Loaded district data with 31 records.
+2025-04-20 00:10:08,184 - INFO - Loaded population data with 30 records.
+2025-04-20 00:10:08,185 - INFO - Preprocessing data...
+2025-04-20 00:10:08,192 - INFO - Merged dataset contains 27 records.
+2025-04-20 00:10:08,193 - INFO - Merged dataset columns: ['province', 'district', 'area_sqkm', 'total_road_length_m', 'road_density_m_km2', 'road_coverage_index', 'major_roads_ratio', 'major_roads_exposure_index', 'pct_within_1km', 'pct_within_5km', 'pct_within_10km', 'urban_rural_type', 'AQI_mean', 'AQI_median', 'AQI_std', 'AQI_min', 'AQI_max', 'AQI_count', 'AQI_cv', 'avg_yoy_change', 'avg_yoy_pct_change', 'population_density', 'urban_percentage', 'rural_percentage', 'road_density_m_km2_scaled', 'road_coverage_index_scaled', 'major_roads_ratio_scaled', 'major_roads_exposure_index_scaled', 'population_density_scaled', 'AQI_mean_scaled', 'total_population', 'urban_population', 'rural_population', 'male_population', 'female_population', 'population_share_percentage', 'total_percentage', 'urban_rural_label']
+2025-04-20 00:10:08,200 - INFO - 
+Districts by settlement type:
+2025-04-20 00:10:08,205 - INFO - settlement_type
+rural         17
+peri-urban     9
+urban          1
+Name: count, dtype: int64
+2025-04-20 00:10:08,208 - INFO - Analyzing urban-rural patterns...
+2025-04-20 00:10:08,209 - INFO - Analyzing urban-rural patterns...
+2025-04-20 00:10:08,210 - INFO - Comparing AQI distributions...
+2025-04-20 00:10:08,742 - INFO - Analyzing poverty-AQI relationship by settlement type...
+2025-04-20 00:10:08,742 - WARNING - Skipping poverty-AQI analysis: 'poverty_index' column not found in dataset.
+2025-04-20 00:10:08,742 - INFO - Running interaction regression analysis with PCA...
+2025-04-20 00:10:08,763 - INFO - Number of PCA components explaining 90% variance: 3
+2025-04-20 00:10:08,763 - INFO - 
+Interaction Regression Results:
+2025-04-20 00:10:08,782 - INFO -                             OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    aqi   R-squared:                       0.241
+Model:                            OLS   Adj. R-squared:                  0.142
+Method:                 Least Squares   F-statistic:                     2.440
+Date:                Sun, 20 Apr 2025   Prob (F-statistic):             0.0901
+Time:                        00:10:08   Log-Likelihood:                -56.254
+No. Observations:                  27   AIC:                             120.5
+Df Residuals:                      23   BIC:                             125.7
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         61.0150      0.405    150.554      0.000      60.177      61.853
+PC1            0.2958      0.280      1.056      0.302      -0.284       0.876
+PC2           -0.0026      0.406     -0.006      0.995      -0.843       0.838
+PC3           -1.3361      0.536     -2.491      0.020      -2.445      -0.227
+==============================================================================
+Omnibus:                        1.708   Durbin-Watson:                   1.660
+Prob(Omnibus):                  0.426   Jarque-Bera (JB):                1.544
+Skew:                           0.519   Prob(JB):                        0.462
+Kurtosis:                       2.456   Cond. No.                         1.91
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+2025-04-20 00:33:49,972 - INFO - Starting urban-rural comparative analysis...
+2025-04-20 00:33:49,991 - INFO - Loading district and population data...
+2025-04-20 00:33:50,035 - INFO - Loaded district data with 31 records.
+2025-04-20 00:33:50,051 - INFO - Loaded population data with 30 records.
+2025-04-20 00:33:50,051 - INFO - Preprocessing data...
+2025-04-20 00:33:50,076 - INFO - Merged dataset contains 27 records.
+2025-04-20 00:33:50,076 - INFO - Merged dataset columns: ['province', 'district', 'area_sqkm', 'total_road_length_m', 'road_density_m_km2', 'road_coverage_index', 'major_roads_ratio', 'major_roads_exposure_index', 'pct_within_1km', 'pct_within_5km', 'pct_within_10km', 'urban_rural_type', 'AQI_mean', 'AQI_median', 'AQI_std', 'AQI_min', 'AQI_max', 'AQI_count', 'AQI_cv', 'avg_yoy_change', 'avg_yoy_pct_change', 'population_density', 'urban_percentage', 'rural_percentage', 'road_density_m_km2_scaled', 'road_coverage_index_scaled', 'major_roads_ratio_scaled', 'major_roads_exposure_index_scaled', 'population_density_scaled', 'AQI_mean_scaled', 'total_population', 'urban_population', 'rural_population', 'male_population', 'female_population', 'population_share_percentage', 'total_percentage', 'urban_rural_label']
+2025-04-20 00:33:50,076 - INFO - 
+Districts by settlement type:
+2025-04-20 00:33:50,076 - INFO - settlement_type
+rural         17
+peri-urban     9
+urban          1
+Name: count, dtype: int64
+2025-04-20 00:33:50,093 - INFO - Analyzing urban-rural patterns...
+2025-04-20 00:33:50,094 - INFO - Analyzing urban-rural patterns...
+2025-04-20 00:33:50,095 - INFO - Comparing AQI distributions...
+2025-04-20 00:33:50,639 - INFO - Analyzing poverty-AQI relationship by settlement type...
+2025-04-20 00:33:50,639 - WARNING - Skipping poverty-AQI analysis: 'poverty_index' column not found in dataset.
+2025-04-20 00:33:50,639 - INFO - Running interaction regression analysis with PCA...
+2025-04-20 00:33:50,677 - INFO - Number of PCA components explaining 90% variance: 3
+2025-04-20 00:33:50,691 - INFO - 
+Interaction Regression Results:
+2025-04-20 00:33:50,722 - INFO -                             OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    aqi   R-squared:                       0.241
+Model:                            OLS   Adj. R-squared:                  0.142
+Method:                 Least Squares   F-statistic:                     2.440
+Date:                Sun, 20 Apr 2025   Prob (F-statistic):             0.0901
+Time:                        00:33:50   Log-Likelihood:                -56.254
+No. Observations:                  27   AIC:                             120.5
+Df Residuals:                      23   BIC:                             125.7
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         61.0150      0.405    150.554      0.000      60.177      61.853
+PC1            0.2958      0.280      1.056      0.302      -0.284       0.876
+PC2           -0.0026      0.406     -0.006      0.995      -0.843       0.838
+PC3           -1.3361      0.536     -2.491      0.020      -2.445      -0.227
+==============================================================================
+Omnibus:                        1.708   Durbin-Watson:                   1.660
+Prob(Omnibus):                  0.426   Jarque-Bera (JB):                1.544
+Skew:                           0.519   Prob(JB):                        0.462
+Kurtosis:                       2.456   Cond. No.                         1.91
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+2025-04-20 00:41:12,597 - INFO - Starting urban-rural comparative analysis...
+2025-04-20 00:41:12,598 - INFO - Loading district and population data...
+2025-04-20 00:41:12,606 - INFO - Loaded district data with 31 records.
+2025-04-20 00:41:12,607 - INFO - Loaded population data with 30 records.
+2025-04-20 00:41:12,608 - INFO - Preprocessing data...
+2025-04-20 00:41:12,614 - INFO - Merged dataset contains 27 records.
+2025-04-20 00:41:12,615 - INFO - Merged dataset columns: ['province', 'district', 'area_sqkm', 'total_road_length_m', 'road_density_m_km2', 'road_coverage_index', 'major_roads_ratio', 'major_roads_exposure_index', 'pct_within_1km', 'pct_within_5km', 'pct_within_10km', 'urban_rural_type', 'AQI_mean', 'AQI_median', 'AQI_std', 'AQI_min', 'AQI_max', 'AQI_count', 'AQI_cv', 'avg_yoy_change', 'avg_yoy_pct_change', 'population_density', 'urban_percentage', 'rural_percentage', 'road_density_m_km2_scaled', 'road_coverage_index_scaled', 'major_roads_ratio_scaled', 'major_roads_exposure_index_scaled', 'population_density_scaled', 'AQI_mean_scaled', 'total_population', 'urban_population', 'rural_population', 'male_population', 'female_population', 'population_share_percentage', 'total_percentage', 'urban_rural_label']
+2025-04-20 00:41:12,618 - INFO - 
+Districts by settlement type:
+2025-04-20 00:41:12,619 - INFO - settlement_type
+rural         17
+peri-urban     9
+urban          1
+Name: count, dtype: int64
+2025-04-20 00:41:12,620 - INFO - Analyzing urban-rural patterns...
+2025-04-20 00:41:12,620 - INFO - Analyzing urban-rural patterns...
+2025-04-20 00:41:12,625 - INFO - Comparing AQI distributions...
+2025-04-20 00:41:13,037 - INFO - Analyzing poverty-AQI relationship by settlement type...
+2025-04-20 00:41:13,037 - WARNING - Skipping poverty-AQI analysis: 'poverty_index' column not found in dataset.
+2025-04-20 00:41:13,052 - INFO - Running interaction analysis...
+2025-04-20 00:41:13,487 - INFO - Analyzing road infrastructure effects...
+2025-04-20 00:41:13,987 - INFO - Analyzing multiple road variables...
+2025-04-20 00:41:15,969 - INFO - Analyzing population density effects...
+2025-04-20 00:41:16,452 - INFO - Creating comparative summary...
+2025-04-20 00:41:16,452 - INFO - Creating comparative summary...
+2025-04-20 00:41:17,135 - INFO - Creating correlation heatmaps...
+2025-04-20 00:41:18,051 - INFO - Analysis complete. Results saved to the figures directory.
+2025-04-20 00:41:40,281 - INFO - Starting urban-rural comparative analysis...
+2025-04-20 00:41:40,281 - INFO - Loading district and population data...
+2025-04-20 00:41:40,289 - INFO - Loaded district data with 31 records.
+2025-04-20 00:41:40,289 - INFO - Loaded population data with 30 records.
+2025-04-20 00:41:40,289 - INFO - Preprocessing data...
+2025-04-20 00:41:40,302 - INFO - Merged dataset contains 27 records.
+2025-04-20 00:41:40,304 - INFO - Merged dataset columns: ['province', 'district', 'area_sqkm', 'total_road_length_m', 'road_density_m_km2', 'road_coverage_index', 'major_roads_ratio', 'major_roads_exposure_index', 'pct_within_1km', 'pct_within_5km', 'pct_within_10km', 'urban_rural_type', 'AQI_mean', 'AQI_median', 'AQI_std', 'AQI_min', 'AQI_max', 'AQI_count', 'AQI_cv', 'avg_yoy_change', 'avg_yoy_pct_change', 'population_density', 'urban_percentage', 'rural_percentage', 'road_density_m_km2_scaled', 'road_coverage_index_scaled', 'major_roads_ratio_scaled', 'major_roads_exposure_index_scaled', 'population_density_scaled', 'AQI_mean_scaled', 'total_population', 'urban_population', 'rural_population', 'male_population', 'female_population', 'population_share_percentage', 'total_percentage', 'urban_rural_label']
+2025-04-20 00:41:40,308 - INFO - 
+Districts by settlement type:
+2025-04-20 00:41:40,308 - INFO - settlement_type
+rural         17
+peri-urban     9
+urban          1
+Name: count, dtype: int64
+2025-04-20 00:41:40,308 - INFO - Analyzing urban-rural patterns...
+2025-04-20 00:41:40,308 - INFO - Analyzing urban-rural patterns...
+2025-04-20 00:41:40,308 - INFO - Comparing AQI distributions...
+2025-04-20 00:41:40,687 - INFO - Analyzing poverty-AQI relationship by settlement type...
+2025-04-20 00:41:40,687 - WARNING - Skipping poverty-AQI analysis: 'poverty_index' column not found in dataset.
+2025-04-20 00:41:40,687 - INFO - Running interaction analysis...
+2025-04-20 00:41:41,118 - INFO - Analyzing road infrastructure effects...
+2025-04-20 00:41:41,742 - INFO - Analyzing multiple road variables...
+2025-04-20 00:41:43,587 - INFO - Analyzing population density effects...
+2025-04-20 00:41:44,051 - INFO - Creating comparative summary...
+2025-04-20 00:41:44,051 - INFO - Creating comparative summary...
+2025-04-20 00:41:44,710 - INFO - Creating correlation heatmaps...
+2025-04-20 00:41:45,722 - INFO - Analysis complete. Results saved to the figures directory.
+2025-04-20 00:42:47,168 - INFO - Starting urban-rural comparative analysis...
+2025-04-20 00:42:47,168 - INFO - Loading district and population data...
+2025-04-20 00:42:47,181 - INFO - Loaded district data with 31 records.
+2025-04-20 00:42:47,181 - INFO - Loaded population data with 30 records.
+2025-04-20 00:42:47,181 - INFO - Preprocessing data...
+2025-04-20 00:42:47,198 - INFO - Merged dataset contains 27 records.
+2025-04-20 00:42:47,198 - INFO - Merged dataset columns: ['province', 'district', 'area_sqkm', 'total_road_length_m', 'road_density_m_km2', 'road_coverage_index', 'major_roads_ratio', 'major_roads_exposure_index', 'pct_within_1km', 'pct_within_5km', 'pct_within_10km', 'urban_rural_type', 'AQI_mean', 'AQI_median', 'AQI_std', 'AQI_min', 'AQI_max', 'AQI_count', 'AQI_cv', 'avg_yoy_change', 'avg_yoy_pct_change', 'population_density', 'urban_percentage', 'rural_percentage', 'road_density_m_km2_scaled', 'road_coverage_index_scaled', 'major_roads_ratio_scaled', 'major_roads_exposure_index_scaled', 'population_density_scaled', 'AQI_mean_scaled', 'total_population', 'urban_population', 'rural_population', 'male_population', 'female_population', 'population_share_percentage', 'total_percentage', 'urban_rural_label']
+2025-04-20 00:42:47,209 - INFO - 
+Districts by settlement type:
+2025-04-20 00:42:47,211 - INFO - settlement_type
+rural         17
+peri-urban     9
+urban          1
+Name: count, dtype: int64
+2025-04-20 00:42:47,214 - INFO - Analyzing urban-rural patterns...
+2025-04-20 00:42:47,214 - INFO - Analyzing urban-rural patterns...
+2025-04-20 00:42:47,218 - INFO - Comparing AQI distributions...
+2025-04-20 00:42:47,840 - INFO - Analyzing poverty-AQI relationship by settlement type...
+2025-04-20 00:42:47,840 - WARNING - Skipping poverty-AQI analysis: 'poverty_index' column not found in dataset.
+2025-04-20 00:42:47,844 - INFO - Running interaction analysis...
+2025-04-20 00:42:48,296 - INFO - Analyzing road infrastructure effects...
+2025-04-20 00:42:48,799 - INFO - Analyzing multiple road variables...
+2025-04-20 00:42:50,606 - INFO - Analyzing population density effects...
+2025-04-20 00:42:51,132 - INFO - Creating comparative summary...
+2025-04-20 00:42:51,132 - INFO - Creating comparative summary...
+2025-04-20 00:42:51,961 - INFO - Creating correlation heatmaps...
+2025-04-20 00:42:52,972 - INFO - Analysis complete. Results saved to the figures directory.

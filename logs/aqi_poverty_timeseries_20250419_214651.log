@@ -1,0 +1,9 @@
+2025-04-19 21:46:51,090 - INFO - Logging setup
+2025-04-19 21:46:51,218 - INFO - Loaded dataset with 25376 sectors
+2025-04-19 21:46:51,230 - INFO - Using AQI as dependent variable, poverty_index for grouping, and ['year', 'month'] for time series
+2025-04-19 21:46:51,231 - INFO - Starting time series trend analysis
+2025-04-19 21:46:51,290 - INFO - Grouped sectors into poverty categories: Low, Medium, High
+2025-04-19 21:46:51,613 - INFO - Prepared time series data for AQI trends by poverty category
+2025-04-19 21:46:51,643 - INFO - Calculated trend slopes for each poverty category
+2025-04-19 21:46:52,366 - INFO - Saved AQI trends plot
+2025-04-19 21:46:52,368 - INFO - Time series trend analysis completed

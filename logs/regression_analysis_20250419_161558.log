@@ -1,0 +1,223 @@
+2025-04-19 16:15:58,292 - INFO - Logging setup. Log file: logs\regression_analysis_20250419_161558.log
+2025-04-19 16:15:58,298 - INFO - Loaded dataset with 31 districts and 30 variables
+2025-04-19 16:15:58,300 - INFO - Using AQI_mean as dependent variable
+2025-04-19 16:15:58,301 - INFO - Starting regression analysis
+2025-04-19 16:15:58,302 - INFO - Building regression models
+2025-04-19 16:15:58,325 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,328 - INFO -   R-squared: 0.4663
+2025-04-19 16:15:58,331 - INFO -   Adjusted R-squared: 0.3329
+2025-04-19 16:15:58,343 - INFO -   F-statistic: 3.4952 (p=0.0126)
+2025-04-19 16:15:58,345 - INFO -   Coefficients:
+2025-04-19 16:15:58,347 - INFO -     const: 68.7322 (p=0.0000) ***
+2025-04-19 16:15:58,348 - INFO -     Population Density: 0.0028 (p=0.0577) *
+2025-04-19 16:15:58,348 - INFO -     Road Density: 0.0006 (p=0.5165) 
+2025-04-19 16:15:58,348 - INFO -     Total Road Length: -0.0000 (p=0.9064) 
+2025-04-19 16:15:58,355 - INFO -     Major Roads Ratio: 59.8528 (p=0.0686) *
+2025-04-19 16:15:58,356 - INFO -     Major Roads Exposure: -48.2475 (p=0.0225) **
+2025-04-19 16:15:58,357 - INFO -     Road Coverage: 8.4577 (p=0.1551) 
+2025-04-19 16:15:58,382 - INFO - Variance Inflation Factor (VIF) for predictors:
+2025-04-19 16:15:58,385 - INFO -   Major Roads Exposure: 15.20
+2025-04-19 16:15:58,387 - INFO -   Road Density: 12.87
+2025-04-19 16:15:58,391 - INFO -   Population Density: 6.55
+2025-04-19 16:15:58,394 - INFO -   Major Roads Ratio: 6.35
+2025-04-19 16:15:58,395 - INFO -   Road Coverage: 2.72
+2025-04-19 16:15:58,397 - INFO -   Total Road Length: 2.41
+2025-04-19 16:15:58,405 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,408 - INFO -   R-squared: 0.2389
+2025-04-19 16:15:58,410 - INFO -   Adjusted R-squared: 0.2127
+2025-04-19 16:15:58,410 - INFO -   F-statistic: 9.1036 (p=0.0053)
+2025-04-19 16:15:58,415 - INFO -   Coefficients:
+2025-04-19 16:15:58,418 - INFO -     const: 59.8574 (p=0.0000) ***
+2025-04-19 16:15:58,419 - INFO -     Population Density: 0.0018 (p=0.0053) ***
+2025-04-19 16:15:58,427 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,429 - INFO -   R-squared: 0.0645
+2025-04-19 16:15:58,431 - INFO -   Adjusted R-squared: 0.0322
+2025-04-19 16:15:58,432 - INFO -   F-statistic: 1.9983 (p=0.1681)
+2025-04-19 16:15:58,433 - INFO -   Coefficients:
+2025-04-19 16:15:58,434 - INFO -     const: 59.5905 (p=0.0000) ***
+2025-04-19 16:15:58,435 - INFO -     Road Density: 0.0004 (p=0.1681) 
+2025-04-19 16:15:58,441 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,442 - INFO -   R-squared: 0.0371
+2025-04-19 16:15:58,442 - INFO -   Adjusted R-squared: 0.0039
+2025-04-19 16:15:58,444 - INFO -   F-statistic: 1.1168 (p=0.2993)
+2025-04-19 16:15:58,445 - INFO -   Coefficients:
+2025-04-19 16:15:58,447 - INFO -     const: 62.6629 (p=0.0000) ***
+2025-04-19 16:15:58,448 - INFO -     Total Road Length: -0.0000 (p=0.2993) 
+2025-04-19 16:15:58,453 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,455 - INFO -   R-squared: 0.0038
+2025-04-19 16:15:58,456 - INFO -   Adjusted R-squared: -0.0305
+2025-04-19 16:15:58,458 - INFO -   F-statistic: 0.1118 (p=0.7406)
+2025-04-19 16:15:58,460 - INFO -   Coefficients:
+2025-04-19 16:15:58,464 - INFO -     const: 60.7371 (p=0.0000) ***
+2025-04-19 16:15:58,464 - INFO -     Major Roads Ratio: 5.1759 (p=0.7406) 
+2025-04-19 16:15:58,472 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,472 - INFO -   R-squared: 0.0003
+2025-04-19 16:15:58,472 - INFO -   Adjusted R-squared: -0.0342
+2025-04-19 16:15:58,472 - INFO -   F-statistic: 0.0083 (p=0.9280)
+2025-04-19 16:15:58,472 - INFO -   Coefficients:
+2025-04-19 16:15:58,489 - INFO -     const: 60.9613 (p=0.0000) ***
+2025-04-19 16:15:58,489 - INFO -     Major Roads Exposure: 0.5756 (p=0.9280) 
+2025-04-19 16:15:58,489 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,489 - INFO -   R-squared: 0.0032
+2025-04-19 16:15:58,489 - INFO -   Adjusted R-squared: -0.0312
+2025-04-19 16:15:58,489 - INFO -   F-statistic: 0.0936 (p=0.7618)
+2025-04-19 16:15:58,489 - INFO -   Coefficients:
+2025-04-19 16:15:58,489 - INFO -     const: 62.4538 (p=0.0000) ***
+2025-04-19 16:15:58,489 - INFO -     Road Coverage: -1.3290 (p=0.7618) 
+2025-04-19 16:15:58,507 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,508 - INFO -   R-squared: 0.3105
+2025-04-19 16:15:58,509 - INFO -   Adjusted R-squared: 0.2612
+2025-04-19 16:15:58,510 - INFO -   F-statistic: 6.3044 (p=0.0055)
+2025-04-19 16:15:58,511 - INFO -   Coefficients:
+2025-04-19 16:15:58,512 - INFO -     const: 61.8628 (p=0.0000) ***
+2025-04-19 16:15:58,512 - INFO -     Population Density: 0.0032 (p=0.0038) ***
+2025-04-19 16:15:58,512 - INFO -     Road Density: -0.0008 (p=0.0993) *
+2025-04-19 16:15:58,512 - INFO - Added road_density_m_km2 to model, new adj. R-squared: 0.2612
+2025-04-19 16:15:58,522 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,522 - INFO -   R-squared: 0.3267
+2025-04-19 16:15:58,522 - INFO -   Adjusted R-squared: 0.2519
+2025-04-19 16:15:58,522 - INFO -   F-statistic: 4.3674 (p=0.0125)
+2025-04-19 16:15:58,522 - INFO -   Coefficients:
+2025-04-19 16:15:58,522 - INFO -     const: 60.7151 (p=0.0000) ***
+2025-04-19 16:15:58,522 - INFO -     Population Density: 0.0037 (p=0.0038) ***
+2025-04-19 16:15:58,522 - INFO -     Road Density: -0.0009 (p=0.0803) *
+2025-04-19 16:15:58,522 - INFO -     Total Road Length: 0.0000 (p=0.4269) 
+2025-04-19 16:15:58,522 - INFO - Variable total_road_length_m did not improve model, skipping
+2025-04-19 16:15:58,538 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,538 - INFO -   R-squared: 0.3260
+2025-04-19 16:15:58,538 - INFO -   Adjusted R-squared: 0.2511
+2025-04-19 16:15:58,538 - INFO -   F-statistic: 4.3538 (p=0.0126)
+2025-04-19 16:15:58,538 - INFO -   Coefficients:
+2025-04-19 16:15:58,538 - INFO -     const: 63.0711 (p=0.0000) ***
+2025-04-19 16:15:58,538 - INFO -     Population Density: 0.0035 (p=0.0032) ***
+2025-04-19 16:15:58,538 - INFO -     Road Density: -0.0009 (p=0.0807) *
+2025-04-19 16:15:58,538 - INFO -     Major Roads Ratio: -11.0105 (p=0.4370) 
+2025-04-19 16:15:58,538 - INFO - Variable major_roads_ratio did not improve model, skipping
+2025-04-19 16:15:58,555 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,555 - INFO -   R-squared: 0.3112
+2025-04-19 16:15:58,555 - INFO -   Adjusted R-squared: 0.2346
+2025-04-19 16:15:58,555 - INFO -   F-statistic: 4.0657 (p=0.0166)
+2025-04-19 16:15:58,555 - INFO -   Coefficients:
+2025-04-19 16:15:58,555 - INFO -     const: 62.3896 (p=0.0000) ***
+2025-04-19 16:15:58,564 - INFO -     Population Density: 0.0032 (p=0.0092) ***
+2025-04-19 16:15:58,564 - INFO -     Road Density: -0.0008 (p=0.2116) 
+2025-04-19 16:15:58,564 - INFO -     Road Coverage: -0.7658 (p=0.8716) 
+2025-04-19 16:15:58,564 - INFO - Variable road_coverage_index did not improve model, skipping
+2025-04-19 16:15:58,572 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,572 - INFO -   R-squared: 0.3728
+2025-04-19 16:15:58,572 - INFO -   Adjusted R-squared: 0.3031
+2025-04-19 16:15:58,572 - INFO -   F-statistic: 5.3488 (p=0.0051)
+2025-04-19 16:15:58,572 - INFO -   Coefficients:
+2025-04-19 16:15:58,572 - INFO -     const: 66.5940 (p=0.0000) ***
+2025-04-19 16:15:58,572 - INFO -     Population Density: 0.0033 (p=0.0026) ***
+2025-04-19 16:15:58,572 - INFO -     Road Density: -0.0004 (p=0.4345) 
+2025-04-19 16:15:58,572 - INFO -     Major Roads Exposure: -11.9838 (p=0.1132) 
+2025-04-19 16:15:58,587 - INFO - Added major_roads_exposure_index to model, new adj. R-squared: 0.3031
+2025-04-19 16:15:58,588 - INFO - Selected predictors: ['population_density', 'road_density_m_km2', 'major_roads_exposure_index']
+2025-04-19 16:15:58,588 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,588 - INFO -   R-squared: 0.3728
+2025-04-19 16:15:58,588 - INFO -   Adjusted R-squared: 0.3031
+2025-04-19 16:15:58,588 - INFO -   F-statistic: 5.3488 (p=0.0051)
+2025-04-19 16:15:58,588 - INFO -   Coefficients:
+2025-04-19 16:15:58,588 - INFO -     const: 66.5940 (p=0.0000) ***
+2025-04-19 16:15:58,588 - INFO -     Population Density: 0.0033 (p=0.0026) ***
+2025-04-19 16:15:58,588 - INFO -     Road Density: -0.0004 (p=0.4345) 
+2025-04-19 16:15:58,588 - INFO -     Major Roads Exposure: -11.9838 (p=0.1132) 
+2025-04-19 16:15:58,604 - INFO - Insufficient data for urban model, need at least 11 observations
+2025-04-19 16:15:58,609 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,609 - INFO -   R-squared: 0.0067
+2025-04-19 16:15:58,609 - INFO -   Adjusted R-squared: -0.0554
+2025-04-19 16:15:58,609 - INFO -   F-statistic: 0.1079 (p=0.7468)
+2025-04-19 16:15:58,609 - INFO -   Coefficients:
+2025-04-19 16:15:58,609 - INFO -     const: 59.7838 (p=0.0000) ***
+2025-04-19 16:15:58,609 - INFO -     Population Density: 0.0019 (p=0.7468) 
+2025-04-19 16:15:58,623 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,624 - INFO -   R-squared: 0.1128
+2025-04-19 16:15:58,625 - INFO -   Adjusted R-squared: 0.0574
+2025-04-19 16:15:58,625 - INFO -   F-statistic: 2.0352 (p=0.1729)
+2025-04-19 16:15:58,625 - INFO -   Coefficients:
+2025-04-19 16:15:58,625 - INFO -     const: 63.3129 (p=0.0000) ***
+2025-04-19 16:15:58,625 - INFO -     Road Density: -0.0008 (p=0.1729) 
+2025-04-19 16:15:58,625 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,625 - INFO -   R-squared: 0.0220
+2025-04-19 16:15:58,625 - INFO -   Adjusted R-squared: -0.0392
+2025-04-19 16:15:58,625 - INFO -   F-statistic: 0.3592 (p=0.5573)
+2025-04-19 16:15:58,625 - INFO -   Coefficients:
+2025-04-19 16:15:58,637 - INFO -     const: 59.2726 (p=0.0000) ***
+2025-04-19 16:15:58,638 - INFO -     Total Road Length: 0.0000 (p=0.5573) 
+2025-04-19 16:15:58,643 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,644 - INFO -   R-squared: 0.0567
+2025-04-19 16:15:58,646 - INFO -   Adjusted R-squared: -0.0022
+2025-04-19 16:15:58,646 - INFO -   F-statistic: 0.9618 (p=0.3413)
+2025-04-19 16:15:58,646 - INFO -   Coefficients:
+2025-04-19 16:15:58,654 - INFO -     const: 62.7726 (p=0.0000) ***
+2025-04-19 16:15:58,656 - INFO -     Major Roads Ratio: -18.9908 (p=0.3413) 
+2025-04-19 16:15:58,660 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,664 - INFO -   R-squared: 0.3144
+2025-04-19 16:15:58,664 - INFO -   Adjusted R-squared: 0.2716
+2025-04-19 16:15:58,664 - INFO -   F-statistic: 7.3388 (p=0.0155)
+2025-04-19 16:15:58,664 - INFO -   Coefficients:
+2025-04-19 16:15:58,664 - INFO -     const: 69.6023 (p=0.0000) ***
+2025-04-19 16:15:58,671 - INFO -     Major Roads Exposure: -17.1956 (p=0.0155) **
+2025-04-19 16:15:58,673 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,673 - INFO -   R-squared: 0.2028
+2025-04-19 16:15:58,673 - INFO -   Adjusted R-squared: 0.1529
+2025-04-19 16:15:58,673 - INFO -   F-statistic: 4.0696 (p=0.0608)
+2025-04-19 16:15:58,673 - INFO -   Coefficients:
+2025-04-19 16:15:58,673 - INFO -     const: 68.3560 (p=0.0000) ***
+2025-04-19 16:15:58,673 - INFO -     Road Coverage: -8.6091 (p=0.0608) *
+2025-04-19 16:15:58,688 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,688 - INFO -   R-squared: 0.3183
+2025-04-19 16:15:58,688 - INFO -   Adjusted R-squared: 0.2274
+2025-04-19 16:15:58,688 - INFO -   F-statistic: 3.5018 (p=0.0565)
+2025-04-19 16:15:58,688 - INFO -   Coefficients:
+2025-04-19 16:15:58,688 - INFO -     const: 70.0913 (p=0.0000) ***
+2025-04-19 16:15:58,688 - INFO -     Major Roads Exposure: -15.1809 (p=0.1317) 
+2025-04-19 16:15:58,688 - INFO -     Road Coverage: -1.7275 (p=0.7750) 
+2025-04-19 16:15:58,688 - INFO - Variable road_coverage_index did not improve model, skipping
+2025-04-19 16:15:58,705 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,705 - INFO -   R-squared: 0.3193
+2025-04-19 16:15:58,705 - INFO -   Adjusted R-squared: 0.2285
+2025-04-19 16:15:58,705 - INFO -   F-statistic: 3.5178 (p=0.0559)
+2025-04-19 16:15:58,705 - INFO -   Coefficients:
+2025-04-19 16:15:58,705 - INFO -     const: 69.9138 (p=0.0000) ***
+2025-04-19 16:15:58,705 - INFO -     Major Roads Exposure: -19.2221 (p=0.0499) **
+2025-04-19 16:15:58,705 - INFO -     Road Density: 0.0002 (p=0.7486) 
+2025-04-19 16:15:58,705 - INFO - Variable road_density_m_km2 did not improve model, skipping
+2025-04-19 16:15:58,721 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,722 - INFO -   R-squared: 0.3418
+2025-04-19 16:15:58,722 - INFO -   Adjusted R-squared: 0.2540
+2025-04-19 16:15:58,722 - INFO -   F-statistic: 3.8941 (p=0.0434)
+2025-04-19 16:15:58,722 - INFO -   Coefficients:
+2025-04-19 16:15:58,722 - INFO -     const: 69.9827 (p=0.0000) ***
+2025-04-19 16:15:58,722 - INFO -     Major Roads Exposure: -21.5181 (p=0.0223) **
+2025-04-19 16:15:58,722 - INFO -     Major Roads Ratio: 17.3232 (p=0.4424) 
+2025-04-19 16:15:58,722 - INFO - Variable major_roads_ratio did not improve model, skipping
+2025-04-19 16:15:58,722 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,722 - INFO -   R-squared: 0.3161
+2025-04-19 16:15:58,738 - INFO -   Adjusted R-squared: 0.2249
+2025-04-19 16:15:58,739 - INFO -   F-statistic: 3.4660 (p=0.0579)
+2025-04-19 16:15:58,739 - INFO -   Coefficients:
+2025-04-19 16:15:58,739 - INFO -     const: 70.2521 (p=0.0000) ***
+2025-04-19 16:15:58,739 - INFO -     Major Roads Exposure: -17.6305 (p=0.0227) **
+2025-04-19 16:15:58,739 - INFO -     Total Road Length: -0.0000 (p=0.8529) 
+2025-04-19 16:15:58,739 - INFO - Variable total_road_length_m did not improve model, skipping
+2025-04-19 16:15:58,739 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,739 - INFO -   R-squared: 0.5547
+2025-04-19 16:15:58,739 - INFO -   Adjusted R-squared: 0.4953
+2025-04-19 16:15:58,754 - INFO -   F-statistic: 9.3409 (p=0.0023)
+2025-04-19 16:15:58,755 - INFO -   Coefficients:
+2025-04-19 16:15:58,757 - INFO -     const: 67.9341 (p=0.0000) ***
+2025-04-19 16:15:58,757 - INFO -     Major Roads Exposure: -27.6591 (p=0.0006) ***
+2025-04-19 16:15:58,757 - INFO -     Population Density: 0.0137 (p=0.0123) **
+2025-04-19 16:15:58,757 - INFO - Added population_density to model, new adj. R-squared: 0.4953
+2025-04-19 16:15:58,757 - INFO - Selected predictors: ['major_roads_exposure_index', 'population_density']
+2025-04-19 16:15:58,765 - INFO - Regression model for AQI_mean:
+2025-04-19 16:15:58,765 - INFO -   R-squared: 0.5547
+2025-04-19 16:15:58,765 - INFO -   Adjusted R-squared: 0.4953
+2025-04-19 16:15:58,765 - INFO -   F-statistic: 9.3409 (p=0.0023)
+2025-04-19 16:15:58,771 - INFO -   Coefficients:
+2025-04-19 16:15:58,773 - INFO -     const: 67.9341 (p=0.0000) ***
+2025-04-19 16:15:58,773 - INFO -     Major Roads Exposure: -27.6591 (p=0.0006) ***
+2025-04-19 16:15:58,773 - INFO -     Population Density: 0.0137 (p=0.0123) **
+2025-04-19 16:15:58,773 - INFO - Insufficient data for peri-urban model, need at least 11 observations

@@ -1,0 +1,12 @@
+2025-04-19 22:30:54,868 - INFO - Logging setup
+2025-04-19 22:30:54,988 - INFO - Loaded AQI dataset with 25376 records
+2025-04-19 22:30:54,988 - INFO - Loaded poverty dataset with 416 sectors
+2025-04-19 22:30:54,988 - INFO - Starting time series trend analysis
+2025-04-19 22:30:55,039 - INFO - Merged dataset contains 30805 records after joining on sector_key
+2025-04-19 22:30:55,056 - INFO - Grouped sectors into poverty categories: Low, Medium, High based on weighted poverty score
+2025-04-19 22:30:55,189 - INFO - Prepared time series data for AQI trends by poverty category
+2025-04-19 22:30:55,207 - INFO - Calculated trend slopes for each poverty category
+2025-04-19 22:30:55,718 - INFO - Saved AQI trends plot
+2025-04-19 22:30:56,170 - INFO - Saved YoY AQI change plot
+2025-04-19 22:30:56,638 - INFO - Saved AQI distribution plot
+2025-04-19 22:30:56,638 - INFO - Time series trend analysis completed

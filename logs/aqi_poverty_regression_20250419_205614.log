@@ -1,0 +1,5 @@
+2025-04-19 20:56:14,902 - INFO - Logging setup
+2025-04-19 20:56:15,028 - INFO - Loaded dataset with 25376 sectors
+2025-04-19 20:56:15,029 - INFO - Using AQI as dependent variable and poverty_index as predictor
+2025-04-19 20:56:15,029 - INFO - Starting regression analysis
+2025-04-19 20:56:15,030 - INFO - Fitting aqi_poverty regression model with predictors: poverty_index

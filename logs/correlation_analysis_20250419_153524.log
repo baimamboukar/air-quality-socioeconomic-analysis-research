@@ -1,0 +1,37 @@
+2025-04-19 15:35:24,457 - INFO - Logging setup
+2025-04-19 15:35:24,462 - INFO - Loaded dataset with 31 districts
+2025-04-19 15:35:24,463 - INFO - Using AQI_mean as AQI variable
+2025-04-19 15:35:24,464 - INFO - Starting correlation analysis
+2025-04-19 15:35:24,465 - INFO - Calculating pearson correlations for 15 variables
+2025-04-19 15:35:24,472 - INFO - Top pearson correlations with AQI:
+2025-04-19 15:35:24,474 - INFO -   Urban %: 0.5157
+2025-04-19 15:35:24,474 - INFO -   Rural %: -0.5157
+2025-04-19 15:35:24,474 - INFO -   Population Density: 0.4888
+2025-04-19 15:35:24,474 - INFO -   Road Density: 0.2539
+2025-04-19 15:35:24,474 - INFO - Calculating spearman correlations for 15 variables
+2025-04-19 15:35:24,474 - INFO - Top spearman correlations with AQI:
+2025-04-19 15:35:24,474 - INFO -   Urban %: 0.4002
+2025-04-19 15:35:24,474 - INFO -   Rural %: -0.4002
+2025-04-19 15:35:24,485 - INFO -   Population Density: 0.3067
+2025-04-19 15:35:24,486 - INFO -   Avg YOY Change: 0.2914
+2025-04-19 15:35:24,487 - INFO - Creating correlation matrix visualization
+2025-04-19 15:35:25,284 - INFO - Saved correlation matrix visualization
+2025-04-19 15:35:25,800 - INFO - Created correlation comparison visualization
+2025-04-19 15:35:26,150 - INFO - Created scatter plot: AQI vs Total Road Length
+2025-04-19 15:35:26,499 - INFO - Created scatter plot: AQI vs Road Density
+2025-04-19 15:35:26,881 - INFO - Created scatter plot: AQI vs Road Coverage Index
+2025-04-19 15:35:27,266 - INFO - Created scatter plot: AQI vs Major Roads Ratio
+2025-04-19 15:35:27,882 - INFO - Created scatter plot: AQI vs Major Roads Exposure
+2025-04-19 15:35:28,215 - INFO - Created scatter plot: AQI vs % Within 1km
+2025-04-19 15:35:28,550 - INFO - Created scatter plot: AQI vs % Within 5km
+2025-04-19 15:35:28,898 - INFO - Created scatter plot: AQI vs % Within 10km
+2025-04-19 15:35:29,266 - INFO - Created scatter plot: AQI vs Population Density
+2025-04-19 15:35:29,614 - INFO - Created scatter plot: AQI vs Urban %
+2025-04-19 15:35:29,947 - INFO - Created scatter plot: AQI vs Rural %
+2025-04-19 15:35:30,314 - INFO - Created scatter plot: AQI vs Avg YOY Change
+2025-04-19 15:35:30,630 - INFO - Created scatter plot: AQI vs Avg YOY % Change
+2025-04-19 15:35:30,630 - INFO - Creating composite figure with multiple correlations
+2025-04-19 15:35:32,844 - INFO - Created composite correlation visualization
+2025-04-19 15:35:32,845 - INFO - Analyzing correlations for 3 area types
+2025-04-19 15:35:32,932 - INFO - Saved urban/rural correlation differences
+2025-04-19 15:35:32,932 - INFO - Correlation analysis completed
