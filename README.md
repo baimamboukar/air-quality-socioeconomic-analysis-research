@@ -83,9 +83,15 @@ This study integrates three datasets to analyze air quality and socioeconomic di
   </a>
 </p>
 
+
+![DATA](https://github.com/user-attachments/assets/a48ae221-30d5-4f71-a48d-be15fceb9d8f)
+![EDA](https://github.com/user-attachments/assets/ef462e63-fca4-484d-9dee-1af4cddf6019)
+![ANALYSIS](https://github.com/user-attachments/assets/64456900-fba2-4d79-aebf-71942b7b9895)
+
+
 ## ●• Reproduction Steps
 
-## ●• Cite This Paper
+## ●• Cite This Work
 
 ```bibtex
 @software{bbaimamb_etal_2025,
