@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Baimam Boukar Jean Jacques"
+  - family-names: "Kamikazi Ndayizeye Raissa"
+  - family-names: "Umubyeyi Evelyne"
+  - family-names: "Bertinn Ndahayo Singizwa"
+title: "Mapping Socioeconomic Air Quality Disparities In Rwanda Using Sentinel-5P TROPOMI Data In Google Earth Engine"
+version: 1.0
+date-released: 2025-04-23
+url: "https://github.com/baimamboukar/air-quality-socioeconomic-analysis-research"
