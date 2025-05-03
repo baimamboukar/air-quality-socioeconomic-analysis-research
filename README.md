@@ -54,22 +54,18 @@ _This repository investigates air quality disparities in Rwanda by mapping socio
     <td>
       <a href="https://linkedin.com/in/baimamboukar"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
       <a href="https://github.com/baimamboukar"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub"></a>
-      <a href="https://kaggle.com/baimamboukar"><img src="https://img.shields.io/badge/Kaggle-20BEFF?logo=kaggle&logoColor=white" alt="Kaggle"></a>
     </td>
     <td>
       <a href="https://linkedin.com/in/kamikazindayizeye"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
       <a href="https://github.com/kamikazindayizeye"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub"></a>
-      <a href="https://kaggle.com/kamikazindayizeye"><img src="https://img.shields.io/badge/Kaggle-20BEFF?logo=kaggle&logoColor=white" alt="Kaggle"></a>
     </td>
     <td>
       <a href="https://linkedin.com/in/umubyeyievelyne"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
       <a href="https://github.com/umubyeyievelyne"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub"></a>
-      <a href="https://kaggle.com/umubyeyievelyne"><img src="https://img.shields.io/badge/Kaggle-20BEFF?logo=kaggle&logoColor=white" alt="Kaggle"></a>
     </td>
     <td>
       <a href="https://linkedin.com/in/bertinnsingizwa"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
       <a href="https://github.com/bertinnsingizwa"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub"></a>
-      <a href="https://kaggle.com/bertinnsingizwa"><img src="https://img.shields.io/badge/Kaggle-20BEFF?logo=kaggle&logoColor=white" alt="Kaggle"></a>
     </td>
   </tr>
 </table>
